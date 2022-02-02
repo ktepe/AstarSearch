@@ -1,0 +1,2655 @@
+To specify a map file use the following format: 
+Usage: [executable] [-f filename.osm]
+Reading OpenStreetMap data from the following file: ../map.osm
+if you would like to change the starting points enter 1: 
+we will use default starting points or preset values
+The points are : 10, 10 and 90, 90 
+in Route Planner: start-> 0.1-0.1 end-> 0.9-0.9
+in Route Planner: start_node x 0.118204 start node y 0.10592
+in Route Planner: end_node x 0.896669 end node y 0.929106
+in Route Planner: distance between start and end 1.13298
+in Astar : start node 0x8119c0 (x,y) 0.118204 , 0.10592
+in Astar  while loop current node 0x8119c0 (x,y) 0.118204 , 0.10592
+in AddNeighbors 4
+in AddNeighbors current node (x,y) ( 0.118204, 0.10592 )
+in AddNeighbors node (x,y) ( 0.0166568, 0.138725 )f value 1.28956
+in AddNeighbors node (x,y) ( 0.197179, 0.0803975 )f value 1.18281
+in AddNeighbors node (x,y) ( 0.135582, 0.154693 )f value 1.13758
+in AddNeighbors node (x,y) ( 0.10121, 0.053305 )f value 1.23841
+in NextNode open_list size 4
+in NextNode : current (x,y) 0.135582 , 0.154693
+in Astar  while loop current node after NextNode 0x818310 (x,y) 0.135582 , 0.154693
+in Astar  while loop current node 0x818310 (x,y) 0.135582 , 0.154693
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.135582, 0.154693 )
+in AddNeighbors node (x,y) ( 0.145228, 0.151564 )f value 1.14323
+in AddNeighbors node (x,y) ( 0.153931, 0.210883 )f value 1.14409
+in NextNode open_list size 5
+in NextNode : current (x,y) 0.145228 , 0.151564
+in Astar  while loop current node after NextNode 0x8d37a0 (x,y) 0.145228 , 0.151564
+in Astar  while loop current node 0x8d37a0 (x,y) 0.145228 , 0.151564
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.145228, 0.151564 )
+in AddNeighbors node (x,y) ( 0.124272, 0.158145 )f value 1.1752
+in NextNode open_list size 5
+in NextNode : current (x,y) 0.153931 , 0.210883
+in Astar  while loop current node after NextNode 0x811380 (x,y) 0.153931 , 0.210883
+in Astar  while loop current node 0x811380 (x,y) 0.153931 , 0.210883
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.153931, 0.210883 )
+in AddNeighbors node (x,y) ( 0.257498, 0.175339 )f value 1.20867
+in AddNeighbors node (x,y) ( 0.0502205, 0.24262 )f value 1.30918
+in AddNeighbors node (x,y) ( 0.169799, 0.259446 )f value 1.1503
+in NextNode open_list size 7
+in NextNode : current (x,y) 0.169799 , 0.259446
+in Astar  while loop current node after NextNode 0x818360 (x,y) 0.169799 , 0.259446
+in Astar  while loop current node 0x818360 (x,y) 0.169799 , 0.259446
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.169799, 0.259446 )
+in AddNeighbors node (x,y) ( 0.157807, 0.263343 )f value 1.16915
+in AddNeighbors node (x,y) ( 0.187081, 0.312373 )f value 1.1578
+in NextNode open_list size 8
+in NextNode : current (x,y) 0.187081 , 0.312373
+in Astar  while loop current node after NextNode 0x811a10 (x,y) 0.187081 , 0.312373
+in Astar  while loop current node 0x811a10 (x,y) 0.187081 , 0.312373
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.187081, 0.312373 )
+in AddNeighbors node (x,y) ( 0.142602, 0.326727 )f value 1.22952
+in AddNeighbors node (x,y) ( 0.193361, 0.331605 )f value 1.16073
+in AddNeighbors node (x,y) ( 0.238946, 0.295647 )f value 1.18531
+in NextNode open_list size 10
+in NextNode : current (x,y) 0.193361 , 0.331605
+in Astar  while loop current node after NextNode 0x885050 (x,y) 0.193361 , 0.331605
+in Astar  while loop current node 0x885050 (x,y) 0.193361 , 0.331605
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.193361, 0.331605 )
+in AddNeighbors node (x,y) ( 0.202728, 0.328542 )f value 1.16547
+in AddNeighbors node (x,y) ( 0.198343, 0.34686 )f value 1.16315
+in NextNode open_list size 11
+in NextNode : current (x,y) 0.198343 , 0.34686
+in Astar  while loop current node after NextNode 0x8850f0 (x,y) 0.198343 , 0.34686
+in Astar  while loop current node 0x8850f0 (x,y) 0.198343 , 0.34686
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.198343, 0.34686 )
+in AddNeighbors node (x,y) ( 0.207508, 0.343676 )f value 1.16789
+in AddNeighbors node (x,y) ( 0.203411, 0.362384 )f value 1.16568
+in NextNode open_list size 12
+in NextNode : current (x,y) 0.202728 , 0.328542
+in Astar  while loop current node after NextNode 0x8d4330 (x,y) 0.202728 , 0.328542
+in Astar  while loop current node 0x8d4330 (x,y) 0.202728 , 0.328542
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.202728, 0.328542 )
+in AddNeighbors node (x,y) ( 0.244668, 0.314812 )f value 1.18767
+in NextNode open_list size 12
+in NextNode : current (x,y) 0.203411 , 0.362384
+in Astar  while loop current node after NextNode 0x885140 (x,y) 0.203411 , 0.362384
+in Astar  while loop current node 0x885140 (x,y) 0.203411 , 0.362384
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.203411, 0.362384 )
+in AddNeighbors node (x,y) ( 0.21247, 0.359466 )f value 1.17007
+in AddNeighbors node (x,y) ( 0.207431, 0.374677 )f value 1.16775
+in NextNode open_list size 13
+in NextNode : current (x,y) 0.207431 , 0.374677
+in Astar  while loop current node after NextNode 0x818fe0 (x,y) 0.207431 , 0.374677
+in Astar  while loop current node 0x818fe0 (x,y) 0.207431 , 0.374677
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.207431, 0.374677 )
+in AddNeighbors node (x,y) ( 0.195842, 0.378475 )f value 1.18666
+in AddNeighbors node (x,y) ( 0.226704, 0.433686 )f value 1.17852
+in NextNode open_list size 14
+in NextNode : current (x,y) 0.207508 , 0.343676
+in Astar  while loop current node after NextNode 0x8d42e0 (x,y) 0.207508 , 0.343676
+in Astar  while loop current node 0x8d42e0 (x,y) 0.207508 , 0.343676
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.207508, 0.343676 )
+in AddNeighbors node (x,y) ( 0.2494, 0.329099 )f value 1.19058
+in NextNode open_list size 14
+in NextNode : current (x,y) 0.157807 , 0.263343
+in Astar  while loop current node after NextNode 0x8d2670 (x,y) 0.157807 , 0.263343
+in Astar  while loop current node 0x8d2670 (x,y) 0.157807 , 0.263343
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.157807, 0.263343 )
+in AddNeighbors node (x,y) ( 0.0746286, 0.290425 )f value 1.30305
+in NextNode open_list size 14
+in NextNode : current (x,y) 0.21247 , 0.359466
+in Astar  while loop current node after NextNode 0x8d4290 (x,y) 0.21247 , 0.359466
+in Astar  while loop current node 0x8d4290 (x,y) 0.21247 , 0.359466
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.21247, 0.359466 )
+in AddNeighbors node (x,y) ( 0.254545, 0.345914 )f value 1.19141
+in NextNode open_list size 14
+in NextNode : current (x,y) 0.124272 , 0.158145
+in Astar  while loop current node after NextNode 0x8d1ef0 (x,y) 0.124272 , 0.158145
+in Astar  while loop current node 0x8d1ef0 (x,y) 0.124272 , 0.158145
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.124272, 0.158145 )
+in AddNeighbors node (x,y) ( 0.0403437, 0.18369 )f value 1.30693
+in NextNode open_list size 14
+in NextNode : current (x,y) 0.226704 , 0.433686
+in Astar  while loop current node after NextNode 0x87b280 (x,y) 0.226704 , 0.433686
+in Astar  while loop current node 0x87b280 (x,y) 0.226704 , 0.433686
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.226704, 0.433686 )
+in AddNeighbors node (x,y) ( 0.273404, 0.418051 )f value 1.20052
+in AddNeighbors node (x,y) ( 0.121281, 0.46824 )f value 1.35822
+in AddNeighbors node (x,y) ( 0.230685, 0.44588 )f value 1.18093
+in NextNode open_list size 16
+in NextNode : current (x,y) 0.230685 , 0.44588
+in Astar  while loop current node after NextNode 0x811a60 (x,y) 0.230685 , 0.44588
+in Astar  while loop current node 0x811a60 (x,y) 0.230685 , 0.44588
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.230685, 0.44588 )
+in AddNeighbors node (x,y) ( 0.188466, 0.459532 )f value 1.25221
+in AddNeighbors node (x,y) ( 0.277174, 0.429978 )f value 1.20279
+in AddNeighbors node (x,y) ( 0.251362, 0.509187 )f value 1.1946
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.197179 , 0.0803975
+in Astar  while loop current node after NextNode 0x882260 (x,y) 0.197179 , 0.0803975
+in Astar  while loop current node 0x882260 (x,y) 0.197179 , 0.0803975
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.197179, 0.0803975 )
+in AddNeighbors node (x,y) ( 0.224021, 0.071723 )f value 1.20096
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.238946 , 0.295647
+in Astar  while loop current node after NextNode 0x8b08e0 (x,y) 0.238946 , 0.295647
+in Astar  while loop current node 0x8b08e0 (x,y) 0.238946 , 0.295647
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.238946, 0.295647 )
+in AddNeighbors node (x,y) ( 0.243553, 0.294155 )f value 1.18788
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.195842 , 0.378475
+in Astar  while loop current node after NextNode 0x8d2fd0 (x,y) 0.195842 , 0.378475
+in Astar  while loop current node 0x8d2fd0 (x,y) 0.195842 , 0.378475
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.195842, 0.378475 )
+in AddNeighbors node (x,y) ( 0.111674, 0.40608 )f value 1.32725
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.244668 , 0.314812
+in Astar  while loop current node after NextNode 0x8d41a0 (x,y) 0.244668 , 0.314812
+in Astar  while loop current node 0x8d41a0 (x,y) 0.244668 , 0.314812
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.244668, 0.314812 )
+in AddNeighbors node (x,y) ( 0.250141, 0.313019 )f value 1.19069
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.243553 , 0.294155
+in Astar  while loop current node after NextNode 0x812eb0 (x,y) 0.243553 , 0.294155
+in Astar  while loop current node 0x812eb0 (x,y) 0.243553 , 0.294155
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.243553, 0.294155 )
+in AddNeighbors node (x,y) ( 0.269509, 0.285781 )f value 1.20271
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.2494 , 0.329099
+in Astar  while loop current node after NextNode 0x8d41f0 (x,y) 0.2494 , 0.329099
+in Astar  while loop current node 0x8d41f0 (x,y) 0.2494 , 0.329099
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.2494, 0.329099 )
+in AddNeighbors node (x,y) ( 0.254988, 0.32715 )f value 1.19374
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.250141 , 0.313019
+in Astar  while loop current node after NextNode 0x885000 (x,y) 0.250141 , 0.313019
+in Astar  while loop current node 0x885000 (x,y) 0.250141 , 0.313019
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.250141, 0.313019 )
+in NextNode open_list size 17
+in NextNode : current (x,y) 0.254545 , 0.345914
+in Astar  while loop current node after NextNode 0x8d4240 (x,y) 0.254545 , 0.345914
+in Astar  while loop current node 0x8d4240 (x,y) 0.254545 , 0.345914
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.254545, 0.345914 )
+in AddNeighbors node (x,y) ( 0.263268, 0.343108 )f value 1.19604
+in NextNode open_list size 17
+in NextNode : current (x,y) 0.254988 , 0.32715
+in Astar  while loop current node after NextNode 0x888bb0 (x,y) 0.254988 , 0.32715
+in Astar  while loop current node 0x888bb0 (x,y) 0.254988 , 0.32715
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.254988, 0.32715 )
+in NextNode open_list size 16
+in NextNode : current (x,y) 0.251362 , 0.509187
+in Astar  while loop current node after NextNode 0x819030 (x,y) 0.251362 , 0.509187
+in Astar  while loop current node 0x819030 (x,y) 0.251362 , 0.509187
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.251362, 0.509187 )
+in AddNeighbors node (x,y) ( 0.238033, 0.513663 )f value 1.21747
+in AddNeighbors node (x,y) ( 0.266259, 0.554811 )f value 1.20585
+in NextNode open_list size 17
+in NextNode : current (x,y) 0.263268 , 0.343108
+in Astar  while loop current node after NextNode 0x8850a0 (x,y) 0.263268 , 0.343108
+in Astar  while loop current node 0x8850a0 (x,y) 0.263268 , 0.343108
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.263268, 0.343108 )
+in AddNeighbors node (x,y) ( 0.261575, 0.332696 )f value 1.21493
+in NextNode open_list size 17
+in NextNode : current (x,y) 0.273404 , 0.418051
+in Astar  while loop current node after NextNode 0x8b0e80 (x,y) 0.273404 , 0.418051
+in Astar  while loop current node 0x8b0e80 (x,y) 0.273404 , 0.418051
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.273404, 0.418051 )
+in AddNeighbors node (x,y) ( 0.287157, 0.416604 )f value 1.20469
+in NextNode open_list size 17
+in NextNode : current (x,y) 0.224021 , 0.071723
+in Astar  while loop current node after NextNode 0x812d20 (x,y) 0.224021 , 0.071723
+in Astar  while loop current node 0x812d20 (x,y) 0.224021 , 0.071723
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.224021, 0.071723 )
+in AddNeighbors node (x,y) ( 0.284829, 0.0520801 )f value 1.24446
+in AddNeighbors node (x,y) ( 0.239908, 0.120886 )f value 1.20429
+in AddNeighbors node (x,y) ( 0.20695, 0.0188856 )f value 1.30875
+in NextNode open_list size 19
+in NextNode : current (x,y) 0.269509 , 0.285781
+in Astar  while loop current node after NextNode 0x8814f0 (x,y) 0.269509 , 0.285781
+in Astar  while loop current node 0x8814f0 (x,y) 0.269509 , 0.285781
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.269509, 0.285781 )
+in AddNeighbors node (x,y) ( 0.289349, 0.279389 )f value 1.21447
+in NextNode open_list size 19
+in NextNode : current (x,y) 0.277174 , 0.429978
+in Astar  while loop current node after NextNode 0x8b0e30 (x,y) 0.277174 , 0.429978
+in Astar  while loop current node 0x8b0e30 (x,y) 0.277174 , 0.429978
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.277174, 0.429978 )
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.239908 , 0.120886
+in Astar  while loop current node after NextNode 0x8183b0 (x,y) 0.239908 , 0.120886
+in Astar  while loop current node 0x8183b0 (x,y) 0.239908 , 0.120886
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.239908, 0.120886 )
+in AddNeighbors node (x,y) ( 0.227665, 0.124906 )f value 1.22185
+in NextNode open_list size 18
+in NextNode : current (x,y) 0.287157 , 0.416604
+in Astar  while loop current node after NextNode 0x812af0 (x,y) 0.287157 , 0.416604
+in Astar  while loop current node 0x812af0 (x,y) 0.287157 , 0.416604
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.287157, 0.416604 )
+in AddNeighbors node (x,y) ( 0.299822, 0.412907 )f value 1.21065
+in AddNeighbors node (x,y) ( 0.331386, 0.550111 )f value 1.22957
+in NextNode open_list size 19
+in NextNode : current (x,y) 0.266259 , 0.554811
+in Astar  while loop current node after NextNode 0x886860 (x,y) 0.266259 , 0.554811
+in Astar  while loop current node 0x886860 (x,y) 0.266259 , 0.554811
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.266259, 0.554811 )
+in AddNeighbors node (x,y) ( 0.271067, 0.569521 )f value 1.20975
+in NextNode open_list size 19
+in NextNode : current (x,y) 0.257498 , 0.175339
+in Astar  while loop current node after NextNode 0x811330 (x,y) 0.257498 , 0.175339
+in Astar  while loop current node 0x811330 (x,y) 0.257498 , 0.175339
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.257498, 0.175339 )
+in AddNeighbors node (x,y) ( 0.317297, 0.156018 )f value 1.24932
+in NextNode open_list size 19
+in NextNode : current (x,y) 0.271067 , 0.569521
+in Astar  while loop current node after NextNode 0x811ab0 (x,y) 0.271067 , 0.569521
+in Astar  while loop current node 0x811ab0 (x,y) 0.271067 , 0.569521
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.271067, 0.569521 )
+in AddNeighbors node (x,y) ( 0.322451, 0.552984 )f value 1.22858
+in AddNeighbors node (x,y) ( 0.28782, 0.620813 )f value 1.22458
+in NextNode open_list size 20
+in NextNode : current (x,y) 0.299822 , 0.412907
+in Astar  while loop current node after NextNode 0x8c5b50 (x,y) 0.299822 , 0.412907
+in Astar  while loop current node 0x8c5b50 (x,y) 0.299822 , 0.412907
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.299822, 0.412907 )
+in AddNeighbors node (x,y) ( 0.300775, 0.412628 )f value 1.2111
+in NextNode open_list size 20
+in NextNode : current (x,y) 0.300775 , 0.412628
+in Astar  while loop current node after NextNode 0x881900 (x,y) 0.300775 , 0.412628
+in Astar  while loop current node 0x881900 (x,y) 0.300775 , 0.412628
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.300775, 0.412628 )
+in AddNeighbors node (x,y) ( 0.303458, 0.411849 )f value 1.21238
+in NextNode open_list size 20
+in NextNode : current (x,y) 0.303458 , 0.411849
+in Astar  while loop current node after NextNode 0x813bd0 (x,y) 0.303458 , 0.411849
+in Astar  while loop current node 0x813bd0 (x,y) 0.303458 , 0.411849
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.303458, 0.411849 )
+in AddNeighbors node (x,y) ( 0.304246, 0.411704 )f value 1.21269
+in NextNode open_list size 20
+in NextNode : current (x,y) 0.304246 , 0.411704
+in Astar  while loop current node after NextNode 0x881310 (x,y) 0.304246 , 0.411704
+in Astar  while loop current node 0x881310 (x,y) 0.304246 , 0.411704
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.304246, 0.411704 )
+in AddNeighbors node (x,y) ( 0.309315, 0.410768 )f value 1.21465
+in NextNode open_list size 20
+in NextNode : current (x,y) 0.289349 , 0.279389
+in Astar  while loop current node after NextNode 0x812f00 (x,y) 0.289349 , 0.279389
+in Astar  while loop current node 0x812f00 (x,y) 0.289349 , 0.279389
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.289349, 0.279389 )
+in AddNeighbors node (x,y) ( 0.278838, 0.288955 )f value 1.22899
+in AddNeighbors node (x,y) ( 0.3775, 0.250994 )f value 1.27175
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.309315 , 0.410768
+in Astar  while loop current node after NextNode 0x87e6b0 (x,y) 0.309315 , 0.410768
+in Astar  while loop current node 0x87e6b0 (x,y) 0.309315 , 0.410768
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.309315, 0.410768 )
+in AddNeighbors node (x,y) ( 0.321846, 0.408564 )f value 1.2195
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.261575 , 0.332696
+in Astar  while loop current node after NextNode 0x87be60 (x,y) 0.261575 , 0.332696
+in Astar  while loop current node 0x87be60 (x,y) 0.261575 , 0.332696
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.261575, 0.332696 )
+in AddNeighbors node (x,y) ( 0.262133, 0.326282 )f value 1.22537
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.238033 , 0.513663
+in Astar  while loop current node after NextNode 0x8dabe0 (x,y) 0.238033 , 0.513663
+in Astar  while loop current node 0x8dabe0 (x,y) 0.238033 , 0.513663
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.238033, 0.513663 )
+in AddNeighbors node (x,y) ( 0.155643, 0.541102 )f value 1.36206
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.321846 , 0.408564
+in Astar  while loop current node after NextNode 0x87e660 (x,y) 0.321846 , 0.408564
+in Astar  while loop current node 0x87e660 (x,y) 0.321846 , 0.408564
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.321846, 0.408564 )
+in AddNeighbors node (x,y) ( 0.331982, 0.407929 )f value 1.2226
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.227665 , 0.124906
+in Astar  while loop current node after NextNode 0x8d37f0 (x,y) 0.227665 , 0.124906
+in Astar  while loop current node 0x8d37f0 (x,y) 0.227665 , 0.124906
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.227665, 0.124906 )
+in AddNeighbors node (x,y) ( 0.0319961, 0.186218 )f value 1.52078
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.331982 , 0.407929
+in Astar  while loop current node after NextNode 0x87f5b0 (x,y) 0.331982 , 0.407929
+in Astar  while loop current node 0x87f5b0 (x,y) 0.331982 , 0.407929
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.331982, 0.407929 )
+in AddNeighbors node (x,y) ( 0.342253, 0.409376 )f value 1.22447
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.342253 , 0.409376
+in Astar  while loop current node after NextNode 0x813b80 (x,y) 0.342253 , 0.409376
+in Astar  while loop current node 0x813b80 (x,y) 0.342253 , 0.409376
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.342253, 0.409376 )
+in AddNeighbors node (x,y) ( 0.350832, 0.412962 )f value 1.22506
+in NextNode open_list size 21
+in NextNode : current (x,y) 0.28782 , 0.620813
+in Astar  while loop current node after NextNode 0x819080 (x,y) 0.28782 , 0.620813
+in Astar  while loop current node 0x819080 (x,y) 0.28782 , 0.620813
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.28782, 0.620813 )
+in AddNeighbors node (x,y) ( 0.273693, 0.625446 )f value 1.25004
+in AddNeighbors node (x,y) ( 0.305535, 0.675057 )f value 1.2426
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.350832 , 0.412962
+in Astar  while loop current node after NextNode 0x87f600 (x,y) 0.350832 , 0.412962
+in Astar  while loop current node 0x87f600 (x,y) 0.350832 , 0.412962
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.350832, 0.412962 )
+in AddNeighbors node (x,y) ( 0.359583, 0.418452 )f value 1.22527
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.359583 , 0.418452
+in Astar  while loop current node after NextNode 0x813b30 (x,y) 0.359583 , 0.418452
+in Astar  while loop current node 0x813b30 (x,y) 0.359583 , 0.418452
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.359583, 0.418452 )
+in AddNeighbors node (x,y) ( 0.380135, 0.43647 )f value 1.22529
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.380135 , 0.43647
+in Astar  while loop current node after NextNode 0x813ae0 (x,y) 0.380135 , 0.43647
+in Astar  while loop current node 0x813ae0 (x,y) 0.380135 , 0.43647
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.380135, 0.43647 )
+in AddNeighbors node (x,y) ( 0.385963, 0.441871 )f value 1.22529
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.385963 , 0.441871
+in Astar  while loop current node after NextNode 0x84c020 (x,y) 0.385963 , 0.441871
+in Astar  while loop current node 0x84c020 (x,y) 0.385963 , 0.441871
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.385963, 0.441871 )
+in AddNeighbors node (x,y) ( 0.391714, 0.436125 )f value 1.23327
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.262133 , 0.326282
+in Astar  while loop current node after NextNode 0x8b09d0 (x,y) 0.262133 , 0.326282
+in Astar  while loop current node 0x8b09d0 (x,y) 0.262133 , 0.326282
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.262133, 0.326282 )
+in AddNeighbors node (x,y) ( 0.262556, 0.32136 )f value 1.2334
+in NextNode open_list size 22
+in NextNode : current (x,y) 0.322451 , 0.552984
+in Astar  while loop current node after NextNode 0x819170 (x,y) 0.322451 , 0.552984
+in Astar  while loop current node 0x819170 (x,y) 0.322451 , 0.552984
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.322451, 0.552984 )
+in AddNeighbors node (x,y) ( 0.339089, 0.607862 )f value 1.24299
+in AddNeighbors node (x,y) ( 0.16452, 0.60382 )f value 1.50922
+in NextNode open_list size 23
+in NextNode : current (x,y) 0.278838 , 0.288955
+in Astar  while loop current node after NextNode 0x87bd70 (x,y) 0.278838 , 0.288955
+in Astar  while loop current node 0x87bd70 (x,y) 0.278838 , 0.288955
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.278838, 0.288955 )
+in AddNeighbors node (x,y) ( 0.271962, 0.296806 )f value 1.23861
+in NextNode open_list size 23
+in NextNode : current (x,y) 0.142602 , 0.326727
+in Astar  while loop current node after NextNode 0x8b0930 (x,y) 0.142602 , 0.326727
+in Astar  while loop current node 0x8b0930 (x,y) 0.142602 , 0.326727
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.142602, 0.326727 )
+in AddNeighbors node (x,y) ( 0.124022, 0.332718 )f value 1.25996
+in NextNode open_list size 23
+in NextNode : current (x,y) 0.331386 , 0.550111
+in Astar  while loop current node after NextNode 0x811e20 (x,y) 0.331386 , 0.550111
+in Astar  while loop current node 0x811e20 (x,y) 0.331386 , 0.550111
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.331386, 0.550111 )
+in AddNeighbors node (x,y) ( 0.343667, 0.548942 )f value 1.2324
+in AddNeighbors node (x,y) ( 0.061309, 0.637038 )f value 1.71766
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.343667 , 0.548942
+in Astar  while loop current node after NextNode 0x881ae0 (x,y) 0.343667 , 0.548942
+in Astar  while loop current node 0x881ae0 (x,y) 0.343667 , 0.548942
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.343667, 0.548942 )
+in AddNeighbors node (x,y) ( 0.351812, 0.546503 )f value 1.23561
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.391714 , 0.436125
+in Astar  while loop current node after NextNode 0x87f740 (x,y) 0.391714 , 0.436125
+in Astar  while loop current node 0x87f740 (x,y) 0.391714 , 0.436125
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.391714, 0.436125 )
+in AddNeighbors node (x,y) ( 0.400033, 0.432483 )f value 1.23899
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.262556 , 0.32136
+in Astar  while loop current node after NextNode 0x87be10 (x,y) 0.262556 , 0.32136
+in Astar  while loop current node 0x87be10 (x,y) 0.262556 , 0.32136
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.262556, 0.32136 )
+in AddNeighbors node (x,y) ( 0.267038, 0.308286 )f value 1.25312
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.351812 , 0.546503
+in Astar  while loop current node after NextNode 0x881770 (x,y) 0.351812 , 0.546503
+in Astar  while loop current node 0x881770 (x,y) 0.351812 , 0.546503
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.351812, 0.546503 )
+in AddNeighbors node (x,y) ( 0.361564, 0.544153 )f value 1.23905
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.10121 , 0.053305
+in Astar  while loop current node after NextNode 0x8182c0 (x,y) 0.10121 , 0.053305
+in Astar  while loop current node 0x8182c0 (x,y) 0.10121 , 0.053305
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.10121, 0.053305 )
+in AddNeighbors node (x,y) ( 0.0907661, 0.0563895 )f value 1.25408
+in AddNeighbors node (x,y) ( 0.0995369, 0.0481382 )f value 1.2488
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.271962 , 0.296806
+in Astar  while loop current node after NextNode 0x8816d0 (x,y) 0.271962 , 0.296806
+in Astar  while loop current node 0x8816d0 (x,y) 0.271962 , 0.296806
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.271962, 0.296806 )
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.400033 , 0.432483
+in Astar  while loop current node after NextNode 0x8138b0 (x,y) 0.400033 , 0.432483
+in Astar  while loop current node 0x8138b0 (x,y) 0.400033 , 0.432483
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.400033, 0.432483 )
+in AddNeighbors node (x,y) ( 0.419074, 0.426693 )f value 1.24975
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.361564 , 0.544153
+in Astar  while loop current node after NextNode 0x881810 (x,y) 0.361564 , 0.544153
+in Astar  while loop current node 0x881810 (x,y) 0.361564 , 0.544153
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.361564, 0.544153 )
+in AddNeighbors node (x,y) ( 0.37296, 0.542327 )f value 1.24246
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.37296 , 0.542327
+in Astar  while loop current node after NextNode 0x84a860 (x,y) 0.37296 , 0.542327
+in Astar  while loop current node 0x84a860 (x,y) 0.37296 , 0.542327
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.37296, 0.542327 )
+in AddNeighbors node (x,y) ( 0.410342, 0.537205 )f value 1.25372
+in NextNode open_list size 24
+in NextNode : current (x,y) 0.305535 , 0.675057
+in Astar  while loop current node after NextNode 0x810a70 (x,y) 0.305535 , 0.675057
+in Astar  while loop current node 0x810a70 (x,y) 0.305535 , 0.675057
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.305535, 0.675057 )
+in AddNeighbors node (x,y) ( 0.403235, 0.641504 )f value 1.27362
+in AddNeighbors node (x,y) ( 0.322201, 0.726071 )f value 1.26215
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.339089 , 0.607862
+in Astar  while loop current node after NextNode 0x819490 (x,y) 0.339089 , 0.607862
+in Astar  while loop current node 0x819490 (x,y) 0.339089 , 0.607862
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.339089, 0.607862 )
+in AddNeighbors node (x,y) ( 0.190072, 0.652896 )f value 1.51383
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.284829 , 0.0520801
+in Astar  while loop current node after NextNode 0x818770 (x,y) 0.284829 , 0.0520801
+in Astar  while loop current node 0x818770 (x,y) 0.284829 , 0.0520801
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.284829, 0.0520801 )
+in AddNeighbors node (x,y) ( 0.28758, 0.0608883 )f value 1.2449
+in AddNeighbors node (x,y) ( 0.33353, 0.0363458 )f value 1.28182
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.28758 , 0.0608883
+in Astar  while loop current node after NextNode 0x8d4dd0 (x,y) 0.28758 , 0.0608883
+in Astar  while loop current node 0x8d4dd0 (x,y) 0.28758 , 0.0608883
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.28758, 0.0608883 )
+in AddNeighbors node (x,y) ( 0.281021, 0.0407443 )f value 1.28636
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.0995369 , 0.0481382
+in Astar  while loop current node after NextNode 0x885d70 (x,y) 0.0995369 , 0.0481382
+in Astar  while loop current node 0x885d70 (x,y) 0.0995369 , 0.0481382
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0995369, 0.0481382 )
+in AddNeighbors node (x,y) ( 0.0877271, 0.0115919 )f value 1.32233
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.317297 , 0.156018
+in Astar  while loop current node after NextNode 0x8187c0 (x,y) 0.317297 , 0.156018
+in Astar  while loop current node 0x8187c0 (x,y) 0.317297 , 0.156018
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.317297, 0.156018 )
+in AddNeighbors node (x,y) ( 0.313758, 0.144694 )f value 1.27238
+in AddNeighbors node (x,y) ( 0.382664, 0.134872 )f value 1.29798
+in NextNode open_list size 27
+in NextNode : current (x,y) 0.419074 , 0.426693
+in Astar  while loop current node after NextNode 0x813900 (x,y) 0.419074 , 0.426693
+in Astar  while loop current node 0x813900 (x,y) 0.419074 , 0.426693
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.419074, 0.426693 )
+in AddNeighbors node (x,y) ( 0.427807, 0.422194 )f value 1.25688
+in NextNode open_list size 27
+in NextNode : current (x,y) 0.273693 , 0.625446
+in Astar  while loop current node after NextNode 0x8cd990 (x,y) 0.273693 , 0.625446
+in Astar  while loop current node 0x8cd990 (x,y) 0.273693 , 0.625446
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.273693, 0.625446 )
+in AddNeighbors node (x,y) ( 0.181109, 0.655836 )f value 1.4204
+in NextNode open_list size 27
+in NextNode : current (x,y) 0.188466 , 0.459532
+in Astar  while loop current node after NextNode 0x8db8b0 (x,y) 0.188466 , 0.459532
+in Astar  while loop current node 0x8db8b0 (x,y) 0.188466 , 0.459532
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.188466, 0.459532 )
+in AddNeighbors node (x,y) ( 0.125041, 0.480033 )f value 1.36192
+in NextNode open_list size 27
+in NextNode : current (x,y) 0.267038 , 0.308286
+in Astar  while loop current node after NextNode 0x87bdc0 (x,y) 0.267038 , 0.308286
+in Astar  while loop current node 0x87bdc0 (x,y) 0.267038 , 0.308286
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.267038, 0.308286 )
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.410342 , 0.537205
+in Astar  while loop current node after NextNode 0x881b80 (x,y) 0.410342 , 0.537205
+in Astar  while loop current node 0x881b80 (x,y) 0.410342 , 0.537205
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.410342, 0.537205 )
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.0907661 , 0.0563895
+in Astar  while loop current node after NextNode 0x8d1680 (x,y) 0.0907661 , 0.0563895
+in Astar  while loop current node 0x8d1680 (x,y) 0.0907661 , 0.0563895
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0907661, 0.0563895 )
+in AddNeighbors node (x,y) ( 0.112183, 0.0497306 )f value 1.26705
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.427807 , 0.422194
+in Astar  while loop current node after NextNode 0x87f6a0 (x,y) 0.427807 , 0.422194
+in Astar  while loop current node 0x87f6a0 (x,y) 0.427807 , 0.422194
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.427807, 0.422194 )
+in AddNeighbors node (x,y) ( 0.434923, 0.414766 )f value 1.26786
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.124022 , 0.332718
+in Astar  while loop current node after NextNode 0x8b0980 (x,y) 0.124022 , 0.332718
+in Astar  while loop current node 0x8b0980 (x,y) 0.124022 , 0.332718
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.124022, 0.332718 )
+in AddNeighbors node (x,y) ( 0.0835533, 0.34578 )f value 1.32715
+in NextNode open_list size 25
+in NextNode : current (x,y) 0.322201 , 0.726071
+in Astar  while loop current node after NextNode 0x8190d0 (x,y) 0.322201 , 0.726071
+in Astar  while loop current node 0x8190d0 (x,y) 0.322201 , 0.726071
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.322201, 0.726071 )
+in AddNeighbors node (x,y) ( 0.307507, 0.730637 )f value 1.28994
+in AddNeighbors node (x,y) ( 0.333617, 0.76105 )f value 1.27725
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.112183 , 0.0497306
+in Astar  while loop current node after NextNode 0x8d32a0 (x,y) 0.112183 , 0.0497306
+in Astar  while loop current node 0x8d32a0 (x,y) 0.112183 , 0.0497306
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.112183, 0.0497306 )
+in AddNeighbors node (x,y) ( 0.194987, 0.0227829 )f value 1.32189
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.434923 , 0.414766
+in Astar  while loop current node after NextNode 0x87f650 (x,y) 0.434923 , 0.414766
+in Astar  while loop current node 0x87f650 (x,y) 0.434923 , 0.414766
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.434923, 0.414766 )
+in AddNeighbors node (x,y) ( 0.439838, 0.405624 )f value 1.28183
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.3775 , 0.250994
+in Astar  while loop current node after NextNode 0x887710 (x,y) 0.3775 , 0.250994
+in Astar  while loop current node 0x887710 (x,y) 0.3775 , 0.250994
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.3775, 0.250994 )
+in AddNeighbors node (x,y) ( 0.393272, 0.245916 )f value 1.28291
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.313758 , 0.144694
+in Astar  while loop current node after NextNode 0x8d4d80 (x,y) 0.313758 , 0.144694
+in Astar  while loop current node 0x8d4d80 (x,y) 0.313758 , 0.144694
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.313758, 0.144694 )
+in AddNeighbors node (x,y) ( 0.300669, 0.102791 )f value 1.35782
+in NextNode open_list size 26
+in NextNode : current (x,y) 0.403235 , 0.641504
+in Astar  while loop current node after NextNode 0x810a20 (x,y) 0.403235 , 0.641504
+in Astar  while loop current node 0x810a20 (x,y) 0.403235 , 0.641504
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.403235, 0.641504 )
+in AddNeighbors node (x,y) ( 0.412554, 0.638341 )f value 1.27706
+in AddNeighbors node (x,y) ( 0.433606, 0.733688 )f value 1.30216
+in AddNeighbors node (x,y) ( 0.197699, 0.707819 )f value 1.65162
+in NextNode open_list size 28
+in NextNode : current (x,y) 0.412554 , 0.638341
+in Astar  while loop current node after NextNode 0x881bd0 (x,y) 0.412554 , 0.638341
+in Astar  while loop current node 0x881bd0 (x,y) 0.412554 , 0.638341
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.412554, 0.638341 )
+in AddNeighbors node (x,y) ( 0.444944, 0.628909 )f value 1.28845
+in NextNode open_list size 28
+in NextNode : current (x,y) 0.333617 , 0.76105
+in Astar  while loop current node after NextNode 0x8795c0 (x,y) 0.333617 , 0.76105
+in Astar  while loop current node 0x8795c0 (x,y) 0.333617 , 0.76105
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.333617, 0.76105 )
+in AddNeighbors node (x,y) ( 0.337146, 0.773645 )f value 1.28345
+in NextNode open_list size 28
+in NextNode : current (x,y) 0.33353 , 0.0363458
+in Astar  while loop current node after NextNode 0x8af8f0 (x,y) 0.33353 , 0.0363458
+in Astar  while loop current node 0x8af8f0 (x,y) 0.33353 , 0.0363458
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.33353, 0.0363458 )
+in AddNeighbors node (x,y) ( 0.350908, 0.0307225 )f value 1.29572
+in NextNode open_list size 28
+in NextNode : current (x,y) 0.439838 , 0.405624
+in Astar  while loop current node after NextNode 0x87f560 (x,y) 0.439838 , 0.405624
+in Astar  while loop current node 0x87f560 (x,y) 0.439838 , 0.405624
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.439838, 0.405624 )
+in AddNeighbors node (x,y) ( 0.450628, 0.403463 )f value 1.28744
+in AddNeighbors node (x,y) ( 0.440386, 0.398374 )f value 1.29422
+in NextNode open_list size 29
+in NextNode : current (x,y) 0.393272 , 0.245916
+in Astar  while loop current node after NextNode 0x880e60 (x,y) 0.393272 , 0.245916
+in Astar  while loop current node 0x880e60 (x,y) 0.393272 , 0.245916
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.393272, 0.245916 )
+in AddNeighbors node (x,y) ( 0.396907, 0.244735 )f value 1.28553
+in NextNode open_list size 29
+in NextNode : current (x,y) 0.337146 , 0.773645
+in Astar  while loop current node after NextNode 0x87af60 (x,y) 0.337146 , 0.773645
+in Astar  while loop current node 0x87af60 (x,y) 0.337146 , 0.773645
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.337146, 0.773645 )
+in AddNeighbors node (x,y) ( 0.407553, 0.750437 )f value 1.29759
+in AddNeighbors node (x,y) ( 0.306891, 0.783511 )f value 1.34204
+in AddNeighbors node (x,y) ( 0.341147, 0.785783 )f value 1.28923
+in NextNode open_list size 31
+in NextNode : current (x,y) 0.396907 , 0.244735
+in Astar  while loop current node after NextNode 0x8135e0 (x,y) 0.396907 , 0.244735
+in Astar  while loop current node 0x8135e0 (x,y) 0.396907 , 0.244735
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.396907, 0.244735 )
+in AddNeighbors node (x,y) ( 0.400513, 0.258332 )f value 1.28651
+in AddNeighbors node (x,y) ( 0.415795, 0.238655 )f value 1.29936
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.281021 , 0.0407443
+in Astar  while loop current node after NextNode 0x8d5140 (x,y) 0.281021 , 0.0407443
+in Astar  while loop current node 0x8d5140 (x,y) 0.281021 , 0.0407443
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.281021, 0.0407443 )
+in AddNeighbors node (x,y) ( 0.25318, -0.042214 )f value 1.45816
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.400513 , 0.258332
+in Astar  while loop current node after NextNode 0x87ecf0 (x,y) 0.400513 , 0.258332
+in Astar  while loop current node 0x87ecf0 (x,y) 0.400513 , 0.258332
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.400513, 0.258332 )
+in AddNeighbors node (x,y) ( 0.40111, 0.261027 )f value 1.28675
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.40111 , 0.261027
+in Astar  while loop current node after NextNode 0x87ed40 (x,y) 0.40111 , 0.261027
+in Astar  while loop current node 0x87ed40 (x,y) 0.40111 , 0.261027
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.40111, 0.261027 )
+in AddNeighbors node (x,y) ( 0.403533, 0.2691 )f value 1.28726
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.403533 , 0.2691
+in Astar  while loop current node after NextNode 0x813a90 (x,y) 0.403533 , 0.2691
+in Astar  while loop current node 0x813a90 (x,y) 0.403533 , 0.2691
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.403533, 0.2691 )
+in AddNeighbors node (x,y) ( 0.406082, 0.283287 )f value 1.2888
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.450628 , 0.403463
+in Astar  while loop current node after NextNode 0x880d70 (x,y) 0.450628 , 0.403463
+in Astar  while loop current node 0x880d70 (x,y) 0.450628 , 0.403463
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.450628, 0.403463 )
+in AddNeighbors node (x,y) ( 0.469449, 0.399532 )f value 1.29769
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.444944 , 0.628909
+in Astar  while loop current node after NextNode 0x881270 (x,y) 0.444944 , 0.628909
+in Astar  while loop current node 0x881270 (x,y) 0.444944 , 0.628909
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.444944, 0.628909 )
+in NextNode open_list size 31
+in NextNode : current (x,y) 0.406082 , 0.283287
+in Astar  while loop current node after NextNode 0x87f010 (x,y) 0.406082 , 0.283287
+in Astar  while loop current node 0x87f010 (x,y) 0.406082 , 0.283287
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.406082, 0.283287 )
+in AddNeighbors node (x,y) ( 0.406591, 0.292786 )f value 1.29046
+in NextNode open_list size 31
+in NextNode : current (x,y) 0.341147 , 0.785783
+in Astar  while loop current node after NextNode 0x87ae70 (x,y) 0.341147 , 0.785783
+in Astar  while loop current node 0x87ae70 (x,y) 0.341147 , 0.785783
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.341147, 0.785783 )
+in AddNeighbors node (x,y) ( 0.258757, 0.813256 )f value 1.45071
+in AddNeighbors node (x,y) ( 0.374259, 0.886276 )f value 1.34548
+in NextNode open_list size 32
+in NextNode : current (x,y) 0.0166568 , 0.138725
+in Astar  while loop current node after NextNode 0x810f20 (x,y) 0.0166568 , 0.138725
+in Astar  while loop current node 0x810f20 (x,y) 0.0166568 , 0.138725
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.0166568, 0.138725 )
+in AddNeighbors node (x,y) ( -0.089112, 0.1729 )f value 1.46029
+in AddNeighbors node (x,y) ( 0.00418344, 0.10013 )f value 1.36536
+in AddNeighbors node (x,y) ( 0.0270529, 0.170896 )f value 1.29426
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.307507 , 0.730637
+in Astar  while loop current node after NextNode 0x8cd3a0 (x,y) 0.307507 , 0.730637
+in Astar  while loop current node 0x8cd3a0 (x,y) 0.307507 , 0.730637
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.307507, 0.730637 )
+in AddNeighbors node (x,y) ( 0.22101, 0.757531 )f value 1.45593
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.406591 , 0.292786
+in Astar  while loop current node after NextNode 0x8808c0 (x,y) 0.406591 , 0.292786
+in Astar  while loop current node 0x8808c0 (x,y) 0.406591 , 0.292786
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.406591, 0.292786 )
+in AddNeighbors node (x,y) ( 0.407043, 0.301082 )f value 1.29194
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.407043 , 0.301082
+in Astar  while loop current node after NextNode 0x813a40 (x,y) 0.407043 , 0.301082
+in Astar  while loop current node 0x813a40 (x,y) 0.407043 , 0.301082
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.407043, 0.301082 )
+in AddNeighbors node (x,y) ( 0.407919, 0.310725 )f value 1.29349
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.407919 , 0.310725
+in Astar  while loop current node after NextNode 0x87f0b0 (x,y) 0.407919 , 0.310725
+in Astar  while loop current node 0x87f0b0 (x,y) 0.407919 , 0.310725
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.407919, 0.310725 )
+in AddNeighbors node (x,y) ( 0.409765, 0.320235 )f value 1.29459
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.440386 , 0.398374
+in Astar  while loop current node after NextNode 0x87f510 (x,y) 0.440386 , 0.398374
+in Astar  while loop current node 0x87f510 (x,y) 0.440386 , 0.398374
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.440386, 0.398374 )
+in AddNeighbors node (x,y) ( 0.438366, 0.390624 )f value 1.30944
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.0270529 , 0.170896
+in Astar  while loop current node after NextNode 0x888c50 (x,y) 0.0270529 , 0.170896
+in Astar  while loop current node 0x888c50 (x,y) 0.0270529 , 0.170896
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0270529, 0.170896 )
+in AddNeighbors node (x,y) ( 0.0665214, 0.293064 )f value 1.31471
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.409765 , 0.320235
+in Astar  while loop current node after NextNode 0x87f100 (x,y) 0.409765 , 0.320235
+in Astar  while loop current node 0x87f100 (x,y) 0.409765 , 0.320235
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.409765, 0.320235 )
+in AddNeighbors node (x,y) ( 0.415016, 0.343676 )f value 1.2971
+in NextNode open_list size 34
+in NextNode : current (x,y) 0.350908 , 0.0307225
+in Astar  while loop current node after NextNode 0x8111a0 (x,y) 0.350908 , 0.0307225
+in Astar  while loop current node 0x8111a0 (x,y) 0.350908 , 0.0307225
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.350908, 0.0307225 )
+in AddNeighbors node (x,y) ( 0.365613, 0.0259677 )f value 1.30771
+in AddNeighbors node (x,y) ( 0.347148, 0.0196762 )f value 1.31878
+in AddNeighbors node (x,y) ( 0.353399, 0.0388958 )f value 1.29599
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.353399 , 0.0388958
+in Astar  while loop current node after NextNode 0x8af940 (x,y) 0.353399 , 0.0388958
+in Astar  while loop current node 0x8af940 (x,y) 0.353399 , 0.0388958
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.353399, 0.0388958 )
+in AddNeighbors node (x,y) ( 0.379029, 0.122957 )f value 1.29901
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.415016 , 0.343676
+in Astar  while loop current node after NextNode 0x8139f0 (x,y) 0.415016 , 0.343676
+in Astar  while loop current node 0x8139f0 (x,y) 0.415016 , 0.343676
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.415016, 0.343676 )
+in AddNeighbors node (x,y) ( 0.419825, 0.359099 )f value 1.29831
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.407553 , 0.750437
+in Astar  while loop current node after NextNode 0x8b0480 (x,y) 0.407553 , 0.750437
+in Astar  while loop current node 0x8b0480 (x,y) 0.407553 , 0.750437
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.407553, 0.750437 )
+in AddNeighbors node (x,y) ( 0.428653, 0.743254 )f value 1.30272
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.469449 , 0.399532
+in Astar  while loop current node after NextNode 0x880be0 (x,y) 0.469449 , 0.399532
+in Astar  while loop current node 0x880be0 (x,y) 0.469449 , 0.399532
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.469449, 0.399532 )
+in AddNeighbors node (x,y) ( 0.486538, 0.392105 )f value 1.31162
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.382664 , 0.134872
+in Astar  while loop current node after NextNode 0x8112e0 (x,y) 0.382664 , 0.134872
+in Astar  while loop current node 0x8112e0 (x,y) 0.382664 , 0.134872
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.382664, 0.134872 )
+in AddNeighbors node (x,y) ( 0.449686, 0.113236 )f value 1.35265
+in AddNeighbors node (x,y) ( 0.398869, 0.185628 )f value 1.29995
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.419825 , 0.359099
+in Astar  while loop current node after NextNode 0x87f290 (x,y) 0.419825 , 0.359099
+in Astar  while loop current node 0x87f290 (x,y) 0.419825 , 0.359099
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.419825, 0.359099 )
+in AddNeighbors node (x,y) ( 0.426912, 0.374087 )f value 1.29886
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.426912 , 0.374087
+in Astar  while loop current node after NextNode 0x8139a0 (x,y) 0.426912 , 0.374087
+in Astar  while loop current node 0x8139a0 (x,y) 0.426912 , 0.374087
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.426912, 0.374087 )
+in AddNeighbors node (x,y) ( 0.428288, 0.376069 )f value 1.29887
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.428288 , 0.376069
+in Astar  while loop current node after NextNode 0x880820 (x,y) 0.428288 , 0.376069
+in Astar  while loop current node 0x880820 (x,y) 0.428288 , 0.376069
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.428288, 0.376069 )
+in AddNeighbors node (x,y) ( 0.381895, 0.450501 )f value 1.36474
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.379029 , 0.122957
+in Astar  while loop current node after NextNode 0x8e1c60 (x,y) 0.379029 , 0.122957
+in Astar  while loop current node 0x8e1c60 (x,y) 0.379029 , 0.122957
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.379029, 0.122957 )
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.415795 , 0.238655
+in Astar  while loop current node after NextNode 0x8115b0 (x,y) 0.415795 , 0.238655
+in Astar  while loop current node 0x8115b0 (x,y) 0.415795 , 0.238655
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.415795, 0.238655 )
+in AddNeighbors node (x,y) ( 0.431519, 0.233589 )f value 1.3112
+in AddNeighbors node (x,y) ( 0.41115, 0.22409 )f value 1.32927
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.398869 , 0.185628
+in Astar  while loop current node after NextNode 0x818590 (x,y) 0.398869 , 0.185628
+in Astar  while loop current node 0x818590 (x,y) 0.398869 , 0.185628
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.398869, 0.185628 )
+in AddNeighbors node (x,y) ( 0.414074, 0.18065 )f value 1.31176
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.433606 , 0.733688
+in Astar  while loop current node after NextNode 0x8813b0 (x,y) 0.433606 , 0.733688
+in Astar  while loop current node 0x8813b0 (x,y) 0.433606 , 0.733688
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.433606, 0.733688 )
+in AddNeighbors node (x,y) ( 0.435952, 0.740826 )f value 1.30477
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.428653 , 0.743254
+in Astar  while loop current node after NextNode 0x8819a0 (x,y) 0.428653 , 0.743254
+in Astar  while loop current node 0x8819a0 (x,y) 0.428653 , 0.743254
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.428653, 0.743254 )
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.0746286 , 0.290425
+in Astar  while loop current node after NextNode 0x8d26c0 (x,y) 0.0746286 , 0.290425
+in Astar  while loop current node 0x8d26c0 (x,y) 0.0746286 , 0.290425
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.0746286, 0.290425 )
+in NextNode open_list size 35
+in NextNode : current (x,y) 0.435952 , 0.740826
+in Astar  while loop current node after NextNode 0x812d70 (x,y) 0.435952 , 0.740826
+in Astar  while loop current node 0x812d70 (x,y) 0.435952 , 0.740826
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.435952, 0.740826 )
+in AddNeighbors node (x,y) ( 0.439886, 0.753043 )f value 1.30944
+in AddNeighbors node (x,y) ( 0.445108, 0.73782 )f value 1.30711
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.0403437 , 0.18369
+in Astar  while loop current node after NextNode 0x8d1f40 (x,y) 0.0403437 , 0.18369
+in Astar  while loop current node 0x8d1f40 (x,y) 0.0403437 , 0.18369
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.0403437, 0.18369 )
+in NextNode open_list size 35
+in NextNode : current (x,y) 0.445108 , 0.73782
+in Astar  while loop current node after NextNode 0x881ef0 (x,y) 0.445108 , 0.73782
+in Astar  while loop current node 0x881ef0 (x,y) 0.445108 , 0.73782
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.445108, 0.73782 )
+in AddNeighbors node (x,y) ( 0.532835, 0.70891 )f value 1.33435
+in NextNode open_list size 35
+in NextNode : current (x,y) 0.365613 , 0.0259677
+in Astar  while loop current node after NextNode 0x8af8a0 (x,y) 0.365613 , 0.0259677
+in Astar  while loop current node 0x8af8a0 (x,y) 0.365613 , 0.0259677
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.365613, 0.0259677 )
+in AddNeighbors node (x,y) ( 0.416478, 0.009543 )f value 1.35085
+in NextNode open_list size 35
+in NextNode : current (x,y) 0.20695 , 0.0188856
+in Astar  while loop current node after NextNode 0x818400 (x,y) 0.20695 , 0.0188856
+in Astar  while loop current node 0x818400 (x,y) 0.20695 , 0.0188856
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.20695, 0.0188856 )
+in AddNeighbors node (x,y) ( 0.00746286, 0.0810545 )f value 1.60445
+in AddNeighbors node (x,y) ( 0.193563, -0.0225491 )f value 1.39349
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.0502205 , 0.24262
+in Astar  while loop current node after NextNode 0x810f70 (x,y) 0.0502205 , 0.24262
+in Astar  while loop current node 0x810f70 (x,y) 0.0502205 , 0.24262
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0502205, 0.24262 )
+in AddNeighbors node (x,y) ( -0.0545289, 0.27694 )f value 1.48287
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.438366 , 0.390624
+in Astar  while loop current node after NextNode 0x813950 (x,y) 0.438366 , 0.390624
+in Astar  while loop current node 0x813950 (x,y) 0.438366 , 0.390624
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.438366, 0.390624 )
+in AddNeighbors node (x,y) ( 0.37949, 0.458686 )f value 1.39144
+in NextNode open_list size 36
+in NextNode : current (x,y) 0.439886 , 0.753043
+in Astar  while loop current node after NextNode 0x8b10b0 (x,y) 0.439886 , 0.753043
+in Astar  while loop current node 0x8b10b0 (x,y) 0.439886 , 0.753043
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.439886, 0.753043 )
+in AddNeighbors node (x,y) ( 0.441319, 0.757475 )f value 1.31118
+in AddNeighbors node (x,y) ( 0.431923, 0.75566 )f value 1.32434
+in AddNeighbors node (x,y) ( 0.449089, 0.750014 )f value 1.31167
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.441319 , 0.757475
+in Astar  while loop current node after NextNode 0x87b000 (x,y) 0.441319 , 0.757475
+in Astar  while loop current node 0x87b000 (x,y) 0.441319 , 0.757475
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.441319, 0.757475 )
+in AddNeighbors node (x,y) ( 0.473142, 0.853703 )f value 1.3561
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.431519 , 0.233589
+in Astar  while loop current node after NextNode 0x881220 (x,y) 0.431519 , 0.233589
+in Astar  while loop current node 0x881220 (x,y) 0.431519 , 0.233589
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.431519, 0.233589 )
+in AddNeighbors node (x,y) ( 0.438895, 0.231217 )f value 1.31685
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.486538 , 0.392105
+in Astar  while loop current node after NextNode 0x880c30 (x,y) 0.486538 , 0.392105
+in Astar  while loop current node 0x880c30 (x,y) 0.486538 , 0.392105
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.486538, 0.392105 )
+in AddNeighbors node (x,y) ( 0.496511, 0.387907 )f value 1.3198
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.449089 , 0.750014
+in Astar  while loop current node after NextNode 0x881cc0 (x,y) 0.449089 , 0.750014
+in Astar  while loop current node 0x881cc0 (x,y) 0.449089 , 0.750014
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.449089, 0.750014 )
+in AddNeighbors node (x,y) ( 0.46891, 0.743555 )f value 1.3167
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.414074 , 0.18065
+in Astar  while loop current node after NextNode 0x8ceed0 (x,y) 0.414074 , 0.18065
+in Astar  while loop current node 0x8ceed0 (x,y) 0.414074 , 0.18065
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.414074, 0.18065 )
+in AddNeighbors node (x,y) ( 0.517082, 0.14691 )f value 1.39904
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.0665214 , 0.293064
+in Astar  while loop current node after NextNode 0x818220 (x,y) 0.0665214 , 0.293064
+in Astar  while loop current node 0x818220 (x,y) 0.0665214 , 0.293064
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.0665214, 0.293064 )
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.46891 , 0.743555
+in Astar  while loop current node after NextNode 0x8b0430 (x,y) 0.46891 , 0.743555
+in Astar  while loop current node 0x8b0430 (x,y) 0.46891 , 0.743555
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.46891, 0.743555 )
+in AddNeighbors node (x,y) ( 0.557166, 0.71479 )f value 1.34475
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.438895 , 0.231217
+in Astar  while loop current node after NextNode 0x812fa0 (x,y) 0.438895 , 0.231217
+in Astar  while loop current node 0x812fa0 (x,y) 0.438895 , 0.231217
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.438895, 0.231217 )
+in AddNeighbors node (x,y) ( 0.443598, 0.244624 )f value 1.31728
+in AddNeighbors node (x,y) ( 0.53447, 0.200427 )f value 1.39637
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.443598 , 0.244624
+in Astar  while loop current node after NextNode 0x87ec50 (x,y) 0.443598 , 0.244624
+in Astar  while loop current node 0x87ec50 (x,y) 0.443598 , 0.244624
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.443598, 0.244624 )
+in AddNeighbors node (x,y) ( 0.444723, 0.246807 )f value 1.31729
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.444723 , 0.246807
+in Astar  while loop current node after NextNode 0x87eca0 (x,y) 0.444723 , 0.246807
+in Astar  while loop current node 0x87eca0 (x,y) 0.444723 , 0.246807
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.444723, 0.246807 )
+in AddNeighbors node (x,y) ( 0.447916, 0.25576 )f value 1.31757
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.447916 , 0.25576
+in Astar  while loop current node after NextNode 0x812ff0 (x,y) 0.447916 , 0.25576
+in Astar  while loop current node 0x812ff0 (x,y) 0.447916 , 0.25576
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.447916, 0.25576 )
+in AddNeighbors node (x,y) ( 0.452571, 0.264702 )f value 1.31763
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.452571 , 0.264702
+in Astar  while loop current node after NextNode 0x87ef70 (x,y) 0.452571 , 0.264702
+in Astar  while loop current node 0x87ef70 (x,y) 0.452571 , 0.264702
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.452571, 0.264702 )
+in AddNeighbors node (x,y) ( 0.460466, 0.275392 )f value 1.31765
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.460466 , 0.275392
+in Astar  while loop current node after NextNode 0x880870 (x,y) 0.460466 , 0.275392
+in Astar  while loop current node 0x880870 (x,y) 0.460466 , 0.275392
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.460466, 0.275392 )
+in AddNeighbors node (x,y) ( 0.464111, 0.280325 )f value 1.31765
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.464111 , 0.280325
+in Astar  while loop current node after NextNode 0x87efc0 (x,y) 0.464111 , 0.280325
+in Astar  while loop current node 0x87efc0 (x,y) 0.464111 , 0.280325
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.464111, 0.280325 )
+in AddNeighbors node (x,y) ( 0.46816, 0.287596 )f value 1.31768
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.46816 , 0.287596
+in Astar  while loop current node after NextNode 0x813040 (x,y) 0.46816 , 0.287596
+in Astar  while loop current node 0x813040 (x,y) 0.46816 , 0.287596
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.46816, 0.287596 )
+in AddNeighbors node (x,y) ( 0.476008, 0.305937 )f value 1.31803
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.476008 , 0.305937
+in Astar  while loop current node after NextNode 0x87f060 (x,y) 0.476008 , 0.305937
+in Astar  while loop current node 0x87f060 (x,y) 0.476008 , 0.305937
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.476008, 0.305937 )
+in AddNeighbors node (x,y) ( 0.481307, 0.32136 )f value 1.3186
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.481307 , 0.32136
+in Astar  while loop current node after NextNode 0x880910 (x,y) 0.481307 , 0.32136
+in Astar  while loop current node 0x880910 (x,y) 0.481307 , 0.32136
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.481307, 0.32136 )
+in AddNeighbors node (x,y) ( 0.482259, 0.324133 )f value 1.31871
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.482259 , 0.324133
+in Astar  while loop current node after NextNode 0x813090 (x,y) 0.482259 , 0.324133
+in Astar  while loop current node 0x813090 (x,y) 0.482259 , 0.324133
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.482259, 0.324133 )
+in AddNeighbors node (x,y) ( 0.487375, 0.344299 )f value 1.32002
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.347148 , 0.0196762
+in Astar  while loop current node after NextNode 0x8af850 (x,y) 0.347148 , 0.0196762
+in Astar  while loop current node 0x8af850 (x,y) 0.347148 , 0.0196762
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.347148, 0.0196762 )
+in AddNeighbors node (x,y) ( 0.319893, -0.0661326 )f value 1.49655
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.496511 , 0.387907
+in Astar  while loop current node after NextNode 0x813130 (x,y) 0.496511 , 0.387907
+in Astar  while loop current node 0x813130 (x,y) 0.496511 , 0.387907
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.496511, 0.387907 )
+in AddNeighbors node (x,y) ( 0.492818, 0.38304 )f value 1.33202
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.487375 , 0.344299
+in Astar  while loop current node after NextNode 0x87f1f0 (x,y) 0.487375 , 0.344299
+in Astar  while loop current node 0x87f1f0 (x,y) 0.487375 , 0.344299
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.487375, 0.344299 )
+in AddNeighbors node (x,y) ( 0.48826, 0.355736 )f value 1.32164
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.48826 , 0.355736
+in Astar  while loop current node after NextNode 0x880960 (x,y) 0.48826 , 0.355736
+in Astar  while loop current node 0x880960 (x,y) 0.48826 , 0.355736
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.48826, 0.355736 )
+in AddNeighbors node (x,y) ( 0.488943, 0.364455 )f value 1.3229
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.194987 , 0.0227829
+in Astar  while loop current node after NextNode 0x8d32f0 (x,y) 0.194987 , 0.0227829
+in Astar  while loop current node 0x8d32f0 (x,y) 0.194987 , 0.0227829
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.194987, 0.0227829 )
+in AddNeighbors node (x,y) ( -0.00115405, 0.0836045 )f value 1.61431
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.0877271 , 0.0115919
+in Astar  while loop current node after NextNode 0x8af350 (x,y) 0.0877271 , 0.0115919
+in Astar  while loop current node 0x8af350 (x,y) 0.0877271 , 0.0115919
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0877271, 0.0115919 )
+in AddNeighbors node (x,y) ( 0.0839476, -8.90828e-05 )f value 1.34588
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.488943 , 0.364455
+in Astar  while loop current node after NextNode 0x8130e0 (x,y) 0.488943 , 0.364455
+in Astar  while loop current node 0x8130e0 (x,y) 0.488943 , 0.364455
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.488943, 0.364455 )
+in AddNeighbors node (x,y) ( 0.490395, 0.37745 )f value 1.32462
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.431923 , 0.75566
+in Astar  while loop current node after NextNode 0x8821c0 (x,y) 0.431923 , 0.75566
+in Astar  while loop current node 0x8821c0 (x,y) 0.431923 , 0.75566
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.431923, 0.75566 )
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.490395 , 0.37745
+in Astar  while loop current node after NextNode 0x87f380 (x,y) 0.490395 , 0.37745
+in Astar  while loop current node 0x87f380 (x,y) 0.490395 , 0.37745
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.490395, 0.37745 )
+in AddNeighbors node (x,y) ( 0.502859, 0.392517 )f value 1.32465
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.502859 , 0.392517
+in Astar  while loop current node after NextNode 0x8804b0 (x,y) 0.502859 , 0.392517
+in Astar  while loop current node 0x8804b0 (x,y) 0.502859 , 0.392517
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.502859, 0.392517 )
+in AddNeighbors node (x,y) ( 0.510831, 0.39549 )f value 1.32606
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.510831 , 0.39549
+in Astar  while loop current node after NextNode 0x813180 (x,y) 0.510831 , 0.39549
+in Astar  while loop current node 0x813180 (x,y) 0.510831 , 0.39549
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.510831, 0.39549 )
+in AddNeighbors node (x,y) ( 0.520939, 0.397071 )f value 1.32913
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.0835533 , 0.34578
+in Astar  while loop current node after NextNode 0x810fc0 (x,y) 0.0835533 , 0.34578
+in Astar  while loop current node 0x810fc0 (x,y) 0.0835533 , 0.34578
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.0835533, 0.34578 )
+in AddNeighbors node (x,y) ( -0.0193784, 0.378942 )f value 1.50314
+in AddNeighbors node (x,y) ( 0.102441, 0.409187 )f value 1.34187
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.111674 , 0.40608
+in Astar  while loop current node after NextNode 0x8d2f80 (x,y) 0.111674 , 0.40608
+in Astar  while loop current node 0x8d2f80 (x,y) 0.111674 , 0.40608
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.111674, 0.40608 )
+in AddNeighbors node (x,y) ( 0.0917567, 0.412684 )f value 1.36129
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.520939 , 0.397071
+in Astar  while loop current node after NextNode 0x87f470 (x,y) 0.520939 , 0.397071
+in Astar  while loop current node 0x87f470 (x,y) 0.520939 , 0.397071
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.520939, 0.397071 )
+in AddNeighbors node (x,y) ( 0.528478, 0.396092 )f value 1.33322
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.41115 , 0.22409
+in Astar  while loop current node after NextNode 0x880f50 (x,y) 0.41115 , 0.22409
+in Astar  while loop current node 0x880f50 (x,y) 0.41115 , 0.22409
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.41115, 0.22409 )
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.492818 , 0.38304
+in Astar  while loop current node after NextNode 0x880460 (x,y) 0.492818 , 0.38304
+in Astar  while loop current node 0x880460 (x,y) 0.492818 , 0.38304
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.492818, 0.38304 )
+in AddNeighbors node (x,y) ( 0.553646, 0.389622 )f value 1.35333
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.528478 , 0.396092
+in Astar  while loop current node after NextNode 0x8131d0 (x,y) 0.528478 , 0.396092
+in Astar  while loop current node 0x8131d0 (x,y) 0.528478 , 0.396092
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.528478, 0.396092 )
+in AddNeighbors node (x,y) ( 0.562735, 0.390624 )f value 1.35371
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.532835 , 0.70891
+in Astar  while loop current node after NextNode 0x8b03e0 (x,y) 0.532835 , 0.70891
+in Astar  while loop current node 0x8b03e0 (x,y) 0.532835 , 0.70891
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.532835, 0.70891 )
+in AddNeighbors node (x,y) ( 0.551944, 0.702619 )f value 1.34166
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.551944 , 0.702619
+in Astar  while loop current node after NextNode 0x882030 (x,y) 0.551944 , 0.702619
+in Astar  while loop current node 0x882030 (x,y) 0.551944 , 0.702619
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.551944, 0.702619 )
+in AddNeighbors node (x,y) ( 0.563725, 0.698743 )f value 1.34646
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.102441 , 0.409187
+in Astar  while loop current node after NextNode 0x818f90 (x,y) 0.102441 , 0.409187
+in Astar  while loop current node 0x818f90 (x,y) 0.102441 , 0.409187
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.102441, 0.409187 )
+in AddNeighbors node (x,y) ( 5.77026e-05, 0.442706 )f value 1.52038
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.306891 , 0.783511
+in Astar  while loop current node after NextNode 0x8b04d0 (x,y) 0.306891 , 0.783511
+in Astar  while loop current node 0x8b04d0 (x,y) 0.306891 , 0.783511
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.306891, 0.783511 )
+in AddNeighbors node (x,y) ( 0.229849, 0.808634 )f value 1.49321
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.557166 , 0.71479
+in Astar  while loop current node after NextNode 0x881a90 (x,y) 0.557166 , 0.71479
+in Astar  while loop current node 0x881a90 (x,y) 0.557166 , 0.71479
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.557166, 0.71479 )
+in AddNeighbors node (x,y) ( 0.567841, 0.711316 )f value 1.3489
+in NextNode open_list size 37
+in NextNode : current (x,y) 0.374259 , 0.886276
+in Astar  while loop current node after NextNode 0x811b00 (x,y) 0.374259 , 0.886276
+in Astar  while loop current node 0x811b00 (x,y) 0.374259 , 0.886276
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.374259, 0.886276 )
+in AddNeighbors node (x,y) ( 0.318345, 0.904707 )f value 1.45903
+in AddNeighbors node (x,y) ( 0.387588, 0.926745 )f value 1.37302
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.0839476 , -8.90828e-05
+in Astar  while loop current node after NextNode 0x810930 (x,y) 0.0839476 , -8.90828e-05
+in Astar  while loop current node 0x810930 (x,y) 0.0839476 , -8.90828e-05
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0839476, -8.90828e-05 )
+in AddNeighbors node (x,y) ( 0.0734361, 0.0033072 )f value 1.36133
+in NextNode open_list size 38
+in NextNode : current (x,y) 0.563725 , 0.698743
+in Astar  while loop current node after NextNode 0x810c00 (x,y) 0.563725 , 0.698743
+in Astar  while loop current node 0x810c00 (x,y) 0.563725 , 0.698743
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.563725, 0.698743 )
+in AddNeighbors node (x,y) ( 0.561706, 0.691304 )f value 1.36009
+in AddNeighbors node (x,y) ( 0.570322, 0.718899 )f value 1.35098
+in AddNeighbors node (x,y) ( 0.581392, 0.693075 )f value 1.35398
+in NextNode open_list size 40
+in NextNode : current (x,y) 0.567841 , 0.711316
+in Astar  while loop current node after NextNode 0x87b0f0 (x,y) 0.567841 , 0.711316
+in Astar  while loop current node 0x87b0f0 (x,y) 0.567841 , 0.711316
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.567841, 0.711316 )
+in AddNeighbors node (x,y) ( 0.597587, 0.802253 )f value 1.37504
+in AddNeighbors node (x,y) ( 0.585046, 0.705703 )f value 1.35601
+in NextNode open_list size 41
+in NextNode : current (x,y) 0.416478 , 0.009543
+in Astar  while loop current node after NextNode 0x818810 (x,y) 0.416478 , 0.009543
+in Astar  while loop current node 0x818810 (x,y) 0.416478 , 0.009543
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.416478, 0.009543 )
+in AddNeighbors node (x,y) ( 0.412833, -0.00169257 )f value 1.37431
+in AddNeighbors node (x,y) ( 0.466968, -0.00677029 )f value 1.39633
+in NextNode open_list size 42
+in NextNode : current (x,y) 0.570322 , 0.718899
+in Astar  while loop current node after NextNode 0x8817c0 (x,y) 0.570322 , 0.718899
+in Astar  while loop current node 0x8817c0 (x,y) 0.570322 , 0.718899
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.570322, 0.718899 )
+in AddNeighbors node (x,y) ( 0.600684, 0.811686 )f value 1.37885
+in NextNode open_list size 42
+in NextNode : current (x,y) 0.449686 , 0.113236
+in Astar  while loop current node after NextNode 0x818860 (x,y) 0.449686 , 0.113236
+in Astar  while loop current node 0x818860 (x,y) 0.449686 , 0.113236
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.449686, 0.113236 )
+in AddNeighbors node (x,y) ( 0.385203, -0.0862763 )f value 1.76895
+in AddNeighbors node (x,y) ( 0.500358, 0.0969114 )f value 1.39734
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.553646 , 0.389622
+in Astar  while loop current node after NextNode 0x87f3d0 (x,y) 0.553646 , 0.389622
+in Astar  while loop current node 0x87f3d0 (x,y) 0.553646 , 0.389622
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.553646, 0.389622 )
+in AddNeighbors node (x,y) ( 0.568678, 0.393341 )f value 1.3577
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.562735 , 0.390624
+in Astar  while loop current node after NextNode 0x813220 (x,y) 0.562735 , 0.390624
+in Astar  while loop current node 0x813220 (x,y) 0.562735 , 0.390624
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.562735, 0.390624 )
+in AddNeighbors node (x,y) ( 0.572342, 0.376738 )f value 1.37752
+in AddNeighbors node (x,y) ( 0.5744, 0.39814 )f value 1.35508
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.581392 , 0.693075
+in Astar  while loop current node after NextNode 0x882210 (x,y) 0.581392 , 0.693075
+in Astar  while loop current node 0x882210 (x,y) 0.581392 , 0.693075
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.581392, 0.693075 )
+in AddNeighbors node (x,y) ( 0.657319, 0.668687 )f value 1.39359
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.5744 , 0.39814
+in Astar  while loop current node after NextNode 0x87f4c0 (x,y) 0.5744 , 0.39814
+in Astar  while loop current node 0x87f4c0 (x,y) 0.5744 , 0.39814
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.5744, 0.39814 )
+in AddNeighbors node (x,y) ( 0.579978, 0.405245 )f value 1.35515
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.579978 , 0.405245
+in Astar  while loop current node after NextNode 0x813270 (x,y) 0.579978 , 0.405245
+in Astar  while loop current node 0x813270 (x,y) 0.579978 , 0.405245
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.579978, 0.405245 )
+in AddNeighbors node (x,y) ( 0.586075, 0.422561 )f value 1.35555
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.586075 , 0.422561
+in Astar  while loop current node after NextNode 0x87f6f0 (x,y) 0.586075 , 0.422561
+in Astar  while loop current node 0x87f6f0 (x,y) 0.586075 , 0.422561
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.586075, 0.422561 )
+in AddNeighbors node (x,y) ( 0.588229, 0.430011 )f value 1.35583
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.588229 , 0.430011
+in Astar  while loop current node after NextNode 0x8132c0 (x,y) 0.588229 , 0.430011
+in Astar  while loop current node 0x8132c0 (x,y) 0.588229 , 0.430011
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.588229, 0.430011 )
+in AddNeighbors node (x,y) ( 0.589518, 0.440256 )f value 1.35678
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.585046 , 0.705703
+in Astar  while loop current node after NextNode 0x881590 (x,y) 0.585046 , 0.705703
+in Astar  while loop current node 0x881590 (x,y) 0.585046 , 0.705703
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.585046, 0.705703 )
+in AddNeighbors node (x,y) ( 0.613244, 0.696505 )f value 1.36889
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.473142 , 0.853703
+in Astar  while loop current node after NextNode 0x8126e0 (x,y) 0.473142 , 0.853703
+in Astar  while loop current node 0x8126e0 (x,y) 0.473142 , 0.853703
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.473142, 0.853703 )
+in AddNeighbors node (x,y) ( 0.589403, 0.815394 )f value 1.37595
+in AddNeighbors node (x,y) ( 0.505282, 0.951256 )f value 1.42063
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.589518 , 0.440256
+in Astar  while loop current node after NextNode 0x87f790 (x,y) 0.589518 , 0.440256
+in Astar  while loop current node 0x87f790 (x,y) 0.589518 , 0.440256
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.589518, 0.440256 )
+in AddNeighbors node (x,y) ( 0.588989, 0.449888 )f value 1.35858
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.568678 , 0.393341
+in Astar  while loop current node after NextNode 0x87f420 (x,y) 0.568678 , 0.393341
+in Astar  while loop current node 0x87f420 (x,y) 0.568678 , 0.393341
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.568678, 0.393341 )
+in AddNeighbors node (x,y) ( 0.586816, 0.455957 )f value 1.36028
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.300669 , 0.102791
+in Astar  while loop current node after NextNode 0x8e1c10 (x,y) 0.300669 , 0.102791
+in Astar  while loop current node 0x8e1c10 (x,y) 0.300669 , 0.102791
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.300669, 0.102791 )
+in AddNeighbors node (x,y) ( 0.249333, -0.0535275 )f value 1.68022
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.121281 , 0.46824
+in Astar  while loop current node after NextNode 0x87b230 (x,y) 0.121281 , 0.46824
+in Astar  while loop current node 0x87b230 (x,y) 0.121281 , 0.46824
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.121281, 0.46824 )
+in AddNeighbors node (x,y) ( 0.0188303, 0.501637 )f value 1.54036
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.588989 , 0.449888
+in Astar  while loop current node after NextNode 0x813310 (x,y) 0.588989 , 0.449888
+in Astar  while loop current node 0x813310 (x,y) 0.588989 , 0.449888
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.588989, 0.449888 )
+in AddNeighbors node (x,y) ( 0.582767, 0.462884 )f value 1.36554
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.561706 , 0.691304
+in Astar  while loop current node after NextNode 0x87eb60 (x,y) 0.561706 , 0.691304
+in Astar  while loop current node 0x87eb60 (x,y) 0.561706 , 0.691304
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.561706, 0.691304 )
+in AddNeighbors node (x,y) ( 0.55732, 0.677607 )f value 1.38606
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.586816 , 0.455957
+in Astar  while loop current node after NextNode 0x87f7e0 (x,y) 0.586816 , 0.455957
+in Astar  while loop current node 0x87f7e0 (x,y) 0.586816 , 0.455957
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.586816, 0.455957 )
+in AddNeighbors node (x,y) ( 0.576141, 0.468585 )f value 1.37232
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.0917567 , 0.412684
+in Astar  while loop current node after NextNode 0x8d06e0 (x,y) 0.0917567 , 0.412684
+in Astar  while loop current node 0x8d06e0 (x,y) 0.0917567 , 0.412684
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0917567, 0.412684 )
+in AddNeighbors node (x,y) ( -0.00952092, 0.445846 )f value 1.53852
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.0734361 , 0.0033072
+in Astar  while loop current node after NextNode 0x8af2b0 (x,y) 0.0734361 , 0.0033072
+in Astar  while loop current node 0x8af2b0 (x,y) 0.0734361 , 0.0033072
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.0734361, 0.0033072 )
+in AddNeighbors node (x,y) ( -0.00997292, 0.0302548 )f value 1.4868
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.125041 , 0.480033
+in Astar  while loop current node after NextNode 0x811010 (x,y) 0.125041 , 0.480033
+in Astar  while loop current node 0x811010 (x,y) 0.125041 , 0.480033
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.125041, 0.480033 )
+in AddNeighbors node (x,y) ( 0.0224655, 0.513051 )f value 1.54505
+in AddNeighbors node (x,y) ( 0.128734, 0.491614 )f value 1.36509
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.155643 , 0.541102
+in Astar  while loop current node after NextNode 0x8dac30 (x,y) 0.155643 , 0.541102
+in Astar  while loop current node 0x8dac30 (x,y) 0.155643 , 0.541102
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.155643, 0.541102 )
+in AddNeighbors node (x,y) ( 0.145507, 0.544198 )f value 1.38023
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.381895 , 0.450501
+in Astar  while loop current node after NextNode 0x84b0d0 (x,y) 0.381895 , 0.450501
+in Astar  while loop current node 0x84b0d0 (x,y) 0.381895 , 0.450501
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.381895, 0.450501 )
+in AddNeighbors node (x,y) ( 0.37926, 0.467372 )f value 1.3724
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.128734 , 0.491614
+in Astar  while loop current node after NextNode 0x886bd0 (x,y) 0.128734 , 0.491614
+in Astar  while loop current node 0x886bd0 (x,y) 0.128734 , 0.491614
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.128734, 0.491614 )
+in AddNeighbors node (x,y) ( 0.20169, 0.720336 )f value 1.44702
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.00418344 , 0.10013
+in Astar  while loop current node after NextNode 0x886b80 (x,y) 0.00418344 , 0.10013
+in Astar  while loop current node 0x886b80 (x,y) 0.00418344 , 0.10013
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.00418344, 0.10013 )
+in AddNeighbors node (x,y) ( -0.0135216, 0.045321 )f value 1.47354
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.582767 , 0.462884
+in Astar  while loop current node after NextNode 0x87f8d0 (x,y) 0.582767 , 0.462884
+in Astar  while loop current node 0x87f8d0 (x,y) 0.582767 , 0.462884
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.582767, 0.462884 )
+in AddNeighbors node (x,y) ( 0.563619, 0.472739 )f value 1.39
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.613244 , 0.696505
+in Astar  while loop current node after NextNode 0x8b0390 (x,y) 0.613244 , 0.696505
+in Astar  while loop current node 0x8b0390 (x,y) 0.613244 , 0.696505
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.613244, 0.696505 )
+in AddNeighbors node (x,y) ( 0.687372, 0.672317 )f value 1.4115
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.576141 , 0.468585
+in Astar  while loop current node after NextNode 0x813360 (x,y) 0.576141 , 0.468585
+in Astar  while loop current node 0x813360 (x,y) 0.576141 , 0.468585
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.576141, 0.468585 )
+in AddNeighbors node (x,y) ( 0.551127, 0.476748 )f value 1.40678
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.37926 , 0.467372
+in Astar  while loop current node after NextNode 0x87f920 (x,y) 0.37926 , 0.467372
+in Astar  while loop current node 0x87f920 (x,y) 0.37926 , 0.467372
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.37926, 0.467372 )
+in AddNeighbors node (x,y) ( 0.381866, 0.479532 )f value 1.37484
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.387588 , 0.926745
+in Astar  while loop current node after NextNode 0x886ae0 (x,y) 0.387588 , 0.926745
+in Astar  while loop current node 0x886ae0 (x,y) 0.387588 , 0.926745
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.387588, 0.926745 )
+in AddNeighbors node (x,y) ( 0.406399, 0.98383 )f value 1.41735
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.412833 , -0.00169257
+in Astar  while loop current node after NextNode 0x8cf330 (x,y) 0.412833 , -0.00169257
+in Astar  while loop current node 0x8cf330 (x,y) 0.412833 , -0.00169257
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.412833, -0.00169257 )
+in AddNeighbors node (x,y) ( 0.381741, -0.0963092 )f value 1.57231
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.381866 , 0.479532
+in Astar  while loop current node after NextNode 0x813860 (x,y) 0.381866 , 0.479532
+in Astar  while loop current node 0x813860 (x,y) 0.381866 , 0.479532
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.381866, 0.479532 )
+in AddNeighbors node (x,y) ( 0.385078, 0.488318 )f value 1.37601
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.597587 , 0.802253
+in Astar  while loop current node after NextNode 0x881fe0 (x,y) 0.597587 , 0.802253
+in Astar  while loop current node 0x881fe0 (x,y) 0.597587 , 0.802253
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.597587, 0.802253 )
+in AddNeighbors node (x,y) ( 0.601972, 0.815839 )f value 1.38015
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.589403 , 0.815394
+in Astar  while loop current node after NextNode 0x881450 (x,y) 0.589403 , 0.815394
+in Astar  while loop current node 0x881450 (x,y) 0.589403 , 0.815394
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.589403, 0.815394 )
+in AddNeighbors node (x,y) ( 0.26599, 0.921957 )f value 2.01956
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.385078 , 0.488318
+in Astar  while loop current node after NextNode 0x87f9c0 (x,y) 0.385078 , 0.488318
+in Astar  while loop current node 0x87f9c0 (x,y) 0.385078 , 0.488318
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.385078, 0.488318 )
+in AddNeighbors node (x,y) ( 0.388117, 0.496603 )f value 1.37714
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.388117 , 0.496603
+in Astar  while loop current node after NextNode 0x813810 (x,y) 0.388117 , 0.496603
+in Astar  while loop current node 0x813810 (x,y) 0.388117 , 0.496603
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.388117, 0.496603 )
+in AddNeighbors node (x,y) ( 0.393733, 0.505891 )f value 1.3777
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.572342 , 0.376738
+in Astar  while loop current node after NextNode 0x81bce0 (x,y) 0.572342 , 0.376738
+in Astar  while loop current node 0x81bce0 (x,y) 0.572342 , 0.376738
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.572342, 0.376738 )
+in AddNeighbors node (x,y) ( 0.574612, 0.372528 )f value 1.3848
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.393733 , 0.505891
+in Astar  while loop current node after NextNode 0x87fa60 (x,y) 0.393733 , 0.505891
+in Astar  while loop current node 0x87fa60 (x,y) 0.393733 , 0.505891
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.393733, 0.505891 )
+in AddNeighbors node (x,y) ( 0.401158, 0.513441 )f value 1.37775
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.401158 , 0.513441
+in Astar  while loop current node after NextNode 0x87fb50 (x,y) 0.401158 , 0.513441
+in Astar  while loop current node 0x87fb50 (x,y) 0.401158 , 0.513441
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.401158, 0.513441 )
+in AddNeighbors node (x,y) ( 0.407726, 0.517427 )f value 1.37784
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.407726 , 0.517427
+in Astar  while loop current node after NextNode 0x87fbf0 (x,y) 0.407726 , 0.517427
+in Astar  while loop current node 0x87fbf0 (x,y) 0.407726 , 0.517427
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.407726, 0.517427 )
+in AddNeighbors node (x,y) ( 0.41491, 0.519454 )f value 1.37851
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.41491 , 0.519454
+in Astar  while loop current node after NextNode 0x87fc40 (x,y) 0.41491 , 0.519454
+in Astar  while loop current node 0x87fc40 (x,y) 0.41491 , 0.519454
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.41491, 0.519454 )
+in AddNeighbors node (x,y) ( 0.423392, 0.518441 )f value 1.38128
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.600684 , 0.811686
+in Astar  while loop current node after NextNode 0x812690 (x,y) 0.600684 , 0.811686
+in Astar  while loop current node 0x812690 (x,y) 0.600684 , 0.811686
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.600684, 0.811686 )
+in AddNeighbors node (x,y) ( 0.614676, 0.805427 )f value 1.38368
+in AddNeighbors node (x,y) ( 0.628467, 0.89915 )f value 1.42206
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.601972 , 0.815839
+in Astar  while loop current node after NextNode 0x881e50 (x,y) 0.601972 , 0.815839
+in Astar  while loop current node 0x881e50 (x,y) 0.601972 , 0.815839
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.601972, 0.815839 )
+in AddNeighbors node (x,y) ( 0.631622, 0.909629 )f value 1.42857
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.145507 , 0.544198
+in Astar  while loop current node after NextNode 0x818f40 (x,y) 0.145507 , 0.544198
+in Astar  while loop current node 0x818f40 (x,y) 0.145507 , 0.544198
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.145507, 0.544198 )
+in AddNeighbors node (x,y) ( 0.134976, 0.547639 )f value 1.39915
+in AddNeighbors node (x,y) ( 0.214211, 0.759591 )f value 1.46548
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.423392 , 0.518441
+in Astar  while loop current node after NextNode 0x8137c0 (x,y) 0.423392 , 0.518441
+in Astar  while loop current node 0x8137c0 (x,y) 0.423392 , 0.518441
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.423392, 0.518441 )
+in AddNeighbors node (x,y) ( 0.429884, 0.516503 )f value 1.38445
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.614676 , 0.805427
+in Astar  while loop current node after NextNode 0x881950 (x,y) 0.614676 , 0.805427
+in Astar  while loop current node 0x881950 (x,y) 0.614676 , 0.805427
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.614676, 0.805427 )
+in AddNeighbors node (x,y) ( 0.708155, 0.77331 )f value 1.41916
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.429884 , 0.516503
+in Astar  while loop current node after NextNode 0x87fba0 (x,y) 0.429884 , 0.516503
+in Astar  while loop current node 0x87fba0 (x,y) 0.429884 , 0.516503
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.429884, 0.516503 )
+in AddNeighbors node (x,y) ( 0.452215, 0.509911 )f value 1.39568
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.574612 , 0.372528
+in Astar  while loop current node after NextNode 0x87f330 (x,y) 0.574612 , 0.372528
+in Astar  while loop current node 0x87f330 (x,y) 0.574612 , 0.372528
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.574612, 0.372528 )
+in AddNeighbors node (x,y) ( 0.576035, 0.367896 )f value 1.39295
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.55732 , 0.677607
+in Astar  while loop current node after NextNode 0x879250 (x,y) 0.55732 , 0.677607
+in Astar  while loop current node 0x879250 (x,y) 0.55732 , 0.677607
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.55732, 0.677607 )
+in AddNeighbors node (x,y) ( 0.559484, 0.671048 )f value 1.39519
+in AddNeighbors node (x,y) ( 0.551733, 0.672796 )f value 1.40079
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.563619 , 0.472739
+in Astar  while loop current node after NextNode 0x8133b0 (x,y) 0.563619 , 0.472739
+in Astar  while loop current node 0x8133b0 (x,y) 0.563619 , 0.472739
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.563619, 0.472739 )
+in AddNeighbors node (x,y) ( 0.54327, 0.481525 )f value 1.41748
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.37949 , 0.458686
+in Astar  while loop current node after NextNode 0x87f830 (x,y) 0.37949 , 0.458686
+in Astar  while loop current node 0x87f830 (x,y) 0.37949 , 0.458686
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.37949, 0.458686 )
+in AddNeighbors node (x,y) ( 0.459293, 0.510222 )f value 1.39292
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.459293 , 0.510222
+in Astar  while loop current node after NextNode 0x87fab0 (x,y) 0.459293 , 0.510222
+in Astar  while loop current node 0x87fab0 (x,y) 0.459293 , 0.510222
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.459293, 0.510222 )
+in AddNeighbors node (x,y) ( 0.466044, 0.512583 )f value 1.39358
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.576035 , 0.367896
+in Astar  while loop current node after NextNode 0x87f2e0 (x,y) 0.576035 , 0.367896
+in Astar  while loop current node 0x87f2e0 (x,y) 0.576035 , 0.367896
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.576035, 0.367896 )
+in AddNeighbors node (x,y) ( 0.579949, 0.354934 )f value 1.41588
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.193563 , -0.0225491
+in Astar  while loop current node after NextNode 0x8af260 (x,y) 0.193563 , -0.0225491
+in Astar  while loop current node 0x8af260 (x,y) 0.193563 , -0.0225491
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.193563, -0.0225491 )
+in AddNeighbors node (x,y) ( 0.189774, -0.0342857 )f value 1.41752
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.466044 , 0.512583
+in Astar  while loop current node after NextNode 0x87fb00 (x,y) 0.466044 , 0.512583
+in Astar  while loop current node 0x87fb00 (x,y) 0.466044 , 0.512583
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.466044, 0.512583 )
+in AddNeighbors node (x,y) ( 0.474325, 0.518519 )f value 1.39369
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.657319 , 0.668687
+in Astar  while loop current node after NextNode 0x8b0340 (x,y) 0.657319 , 0.668687
+in Astar  while loop current node 0x8b0340 (x,y) 0.657319 , 0.668687
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.657319, 0.668687 )
+in AddNeighbors node (x,y) ( 0.684458, 0.659967 )f value 1.41113
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.474325 , 0.518519
+in Astar  while loop current node after NextNode 0x813720 (x,y) 0.474325 , 0.518519
+in Astar  while loop current node 0x813720 (x,y) 0.474325 , 0.518519
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.474325, 0.518519 )
+in AddNeighbors node (x,y) ( 0.495617, 0.539777 )f value 1.39369
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.495617 , 0.539777
+in Astar  while loop current node after NextNode 0x8136d0 (x,y) 0.495617 , 0.539777
+in Astar  while loop current node 0x8136d0 (x,y) 0.495617 , 0.539777
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.495617, 0.539777 )
+in AddNeighbors node (x,y) ( 0.512331, 0.534933 )f value 1.40268
+in AddNeighbors node (x,y) ( 0.49829, 0.545746 )f value 1.39416
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.49829 , 0.545746
+in Astar  while loop current node after NextNode 0x87fd30 (x,y) 0.49829 , 0.545746
+in Astar  while loop current node 0x87fd30 (x,y) 0.49829 , 0.545746
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.49829, 0.545746 )
+in AddNeighbors node (x,y) ( 0.514178, 0.595468 )f value 1.40104
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.559484 , 0.671048
+in Astar  while loop current node after NextNode 0x813590 (x,y) 0.559484 , 0.671048
+in Astar  while loop current node 0x813590 (x,y) 0.559484 , 0.671048
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.559484, 0.671048 )
+in AddNeighbors node (x,y) ( 0.556868, 0.657829 )f value 1.41887
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.452215 , 0.509911
+in Astar  while loop current node after NextNode 0x813770 (x,y) 0.452215 , 0.509911
+in Astar  while loop current node 0x813770 (x,y) 0.452215 , 0.509911
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.452215, 0.509911 )
+in AddNeighbors node (x,y) ( 0.525747, 0.63166 )f value 1.40242
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.466968 , -0.00677029
+in Astar  while loop current node after NextNode 0x8af7b0 (x,y) 0.466968 , -0.00677029
+in Astar  while loop current node 0x8af7b0 (x,y) 0.466968 , -0.00677029
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.466968, -0.00677029 )
+in AddNeighbors node (x,y) ( 0.479922, -0.0109572 )f value 1.40843
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.53447 , 0.200427
+in Astar  while loop current node after NextNode 0x8b5d40 (x,y) 0.53447 , 0.200427
+in Astar  while loop current node 0x8b5d40 (x,y) 0.53447 , 0.200427
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.53447, 0.200427 )
+in AddNeighbors node (x,y) ( 0.546914, 0.196418 )f value 1.4076
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.500358 , 0.0969114
+in Astar  while loop current node after NextNode 0x8afa80 (x,y) 0.500358 , 0.0969114
+in Astar  while loop current node 0x8afa80 (x,y) 0.500358 , 0.0969114
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.500358, 0.0969114 )
+in AddNeighbors node (x,y) ( 0.513389, 0.0926576 )f value 1.40938
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.517082 , 0.14691
+in Astar  while loop current node after NextNode 0x8ce610 (x,y) 0.517082 , 0.14691
+in Astar  while loop current node 0x8ce610 (x,y) 0.517082 , 0.14691
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.517082, 0.14691 )
+in AddNeighbors node (x,y) ( 0.529604, 0.142812 )f value 1.41053
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.134976 , 0.547639
+in Astar  while loop current node after NextNode 0x8da550 (x,y) 0.134976 , 0.547639
+in Astar  while loop current node 0x8da550 (x,y) 0.134976 , 0.547639
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.134976, 0.547639 )
+in AddNeighbors node (x,y) ( 0.0509321, 0.574198 )f value 1.5526
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.551733 , 0.672796
+in Astar  while loop current node after NextNode 0x880f00 (x,y) 0.551733 , 0.672796
+in Astar  while loop current node 0x880f00 (x,y) 0.551733 , 0.672796
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.551733, 0.672796 )
+in AddNeighbors node (x,y) ( 0.547886, 0.660313 )f value 1.42446
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.514178 , 0.595468
+in Astar  while loop current node after NextNode 0x87fe20 (x,y) 0.514178 , 0.595468
+in Astar  while loop current node 0x87fe20 (x,y) 0.514178 , 0.595468
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.514178, 0.595468 )
+in AddNeighbors node (x,y) ( 0.528084, 0.635802 )f value 1.40719
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.525747 , 0.63166
+in Astar  while loop current node after NextNode 0x813680 (x,y) 0.525747 , 0.63166
+in Astar  while loop current node 0x813680 (x,y) 0.525747 , 0.63166
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.525747, 0.63166 )
+in AddNeighbors node (x,y) ( 0.531614, 0.638965 )f value 1.40264
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.531614 , 0.638965
+in Astar  while loop current node after NextNode 0x87e7f0 (x,y) 0.531614 , 0.638965
+in Astar  while loop current node 0x87e7f0 (x,y) 0.531614 , 0.638965
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.531614, 0.638965 )
+in AddNeighbors node (x,y) ( 0.538836, 0.645101 )f value 1.40265
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.538836 , 0.645101
+in Astar  while loop current node after NextNode 0x880ff0 (x,y) 0.538836 , 0.645101
+in Astar  while loop current node 0x880ff0 (x,y) 0.538836 , 0.645101
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.538836, 0.645101 )
+in AddNeighbors node (x,y) ( 0.547857, 0.642718 )f value 1.40646
+in AddNeighbors node (x,y) ( 0.540933, 0.646883 )f value 1.40265
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.540933 , 0.646883
+in Astar  while loop current node after NextNode 0x813630 (x,y) 0.540933 , 0.646883
+in Astar  while loop current node 0x813630 (x,y) 0.540933 , 0.646883
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.540933, 0.646883 )
+in AddNeighbors node (x,y) ( 0.545078, 0.65274 )f value 1.40294
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.512331 , 0.534933
+in Astar  while loop current node after NextNode 0x880e10 (x,y) 0.512331 , 0.534933
+in Astar  while loop current node 0x880e10 (x,y) 0.512331 , 0.534933
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.512331, 0.534933 )
+in AddNeighbors node (x,y) ( 0.529075, 0.528764 )f value 1.4135
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.545078 , 0.65274
+in Astar  while loop current node after NextNode 0x880000 (x,y) 0.545078 , 0.65274
+in Astar  while loop current node 0x880000 (x,y) 0.545078 , 0.65274
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.545078, 0.65274 )
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.547857 , 0.642718
+in Astar  while loop current node after NextNode 0x880d20 (x,y) 0.547857 , 0.642718
+in Astar  while loop current node 0x880d20 (x,y) 0.547857 , 0.642718
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.547857, 0.642718 )
+in AddNeighbors node (x,y) ( 0.555801, 0.639444 )f value 1.41105
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.551127 , 0.476748
+in Astar  while loop current node after NextNode 0x813400 (x,y) 0.551127 , 0.476748
+in Astar  while loop current node 0x813400 (x,y) 0.551127 , 0.476748
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.551127, 0.476748 )
+in AddNeighbors node (x,y) ( 0.538115, 0.489799 )f value 1.42303
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.528084 , 0.635802
+in Astar  while loop current node after NextNode 0x87ff60 (x,y) 0.528084 , 0.635802
+in Astar  while loop current node 0x87ff60 (x,y) 0.528084 , 0.635802
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.528084, 0.635802 )
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.546914 , 0.196418
+in Astar  while loop current node after NextNode 0x811600 (x,y) 0.546914 , 0.196418
+in Astar  while loop current node 0x811600 (x,y) 0.546914 , 0.196418
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.546914, 0.196418 )
+in AddNeighbors node (x,y) ( 0.516178, 0.101288 )f value 1.60676
+in AddNeighbors node (x,y) ( 0.609772, 0.176074 )f value 1.46761
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.479922 , -0.0109572
+in Astar  while loop current node after NextNode 0x8111f0 (x,y) 0.479922 , -0.0109572
+in Astar  while loop current node 0x8111f0 (x,y) 0.479922 , -0.0109572
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.479922, -0.0109572 )
+in AddNeighbors node (x,y) ( 0.482778, -0.00193755 )f value 1.40849
+in AddNeighbors node (x,y) ( 0.48776, -0.0134849 )f value 1.41583
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.482778 , -0.00193755
+in Astar  while loop current node after NextNode 0x8af800 (x,y) 0.482778 , -0.00193755
+in Astar  while loop current node 0x8af800 (x,y) 0.482778 , -0.00193755
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.482778, -0.00193755 )
+in AddNeighbors node (x,y) ( 0.475979, -0.0231392 )f value 1.45289
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.513389 , 0.0926576
+in Astar  while loop current node after NextNode 0x812780 (x,y) 0.513389 , 0.0926576
+in Astar  while loop current node 0x812780 (x,y) 0.513389 , 0.0926576
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.513389, 0.0926576 )
+in AddNeighbors node (x,y) ( 0.520756, 0.0902746 )f value 1.41625
+in AddNeighbors node (x,y) ( 0.509571, 0.0808541 )f value 1.43411
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.529604 , 0.142812
+in Astar  while loop current node after NextNode 0x8185e0 (x,y) 0.529604 , 0.142812
+in Astar  while loop current node 0x8185e0 (x,y) 0.529604 , 0.142812
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.529604, 0.142812 )
+in AddNeighbors node (x,y) ( 0.535807, 0.140874 )f value 1.41618
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.555801 , 0.639444
+in Astar  while loop current node after NextNode 0x881090 (x,y) 0.555801 , 0.639444
+in Astar  while loop current node 0x881090 (x,y) 0.555801 , 0.639444
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.555801, 0.639444 )
+in AddNeighbors node (x,y) ( 0.555214, 0.64215 )f value 1.41252
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.684458 , 0.659967
+in Astar  while loop current node after NextNode 0x881c70 (x,y) 0.684458 , 0.659967
+in Astar  while loop current node 0x881c70 (x,y) 0.684458 , 0.659967
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.684458, 0.659967 )
+in AddNeighbors node (x,y) ( 0.693027, 0.657217 )f value 1.41709
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.687372 , 0.672317
+in Astar  while loop current node after NextNode 0x881860 (x,y) 0.687372 , 0.672317
+in Astar  while loop current node 0x881860 (x,y) 0.687372 , 0.672317
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.687372, 0.672317 )
+in AddNeighbors node (x,y) ( 0.696903, 0.66921 )f value 1.41804
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.555214 , 0.64215
+in Astar  while loop current node after NextNode 0x8134f0 (x,y) 0.555214 , 0.64215
+in Astar  while loop current node 0x8134f0 (x,y) 0.555214 , 0.64215
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.555214, 0.64215 )
+in AddNeighbors node (x,y) ( 0.554743, 0.6497 )f value 1.41563
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.529075 , 0.528764
+in Astar  while loop current node after NextNode 0x8810e0 (x,y) 0.529075 , 0.528764
+in Astar  while loop current node 0x8810e0 (x,y) 0.529075 , 0.528764
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.529075, 0.528764 )
+in AddNeighbors node (x,y) ( 0.531296, 0.534565 )f value 1.41394
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.531296 , 0.534565
+in Astar  while loop current node after NextNode 0x87fc90 (x,y) 0.531296 , 0.534565
+in Astar  while loop current node 0x87fc90 (x,y) 0.531296 , 0.534565
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.531296, 0.534565 )
+in AddNeighbors node (x,y) ( 0.531239, 0.512338 )f value 1.45272
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.554743 , 0.6497
+in Astar  while loop current node after NextNode 0x87ffb0 (x,y) 0.554743 , 0.6497
+in Astar  while loop current node 0x87ffb0 (x,y) 0.554743 , 0.6497
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.554743, 0.6497 )
+in AddNeighbors node (x,y) ( 0.557714, 0.630591 )f value 1.44507
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.48776 , -0.0134849
+in Astar  while loop current node after NextNode 0x8af760 (x,y) 0.48776 , -0.0134849
+in Astar  while loop current node 0x8af760 (x,y) 0.48776 , -0.0134849
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.48776, -0.0134849 )
+in AddNeighbors node (x,y) ( 0.570948, -0.0403878 )f value 1.49854
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.579949 , 0.354934
+in Astar  while loop current node after NextNode 0x87f240 (x,y) 0.579949 , 0.354934
+in Astar  while loop current node 0x87f240 (x,y) 0.579949 , 0.354934
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.579949, 0.354934 )
+in AddNeighbors node (x,y) ( 0.582498, 0.349656 )f value 1.42515
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.535807 , 0.140874
+in Astar  while loop current node after NextNode 0x8cee80 (x,y) 0.535807 , 0.140874
+in Astar  while loop current node 0x8cee80 (x,y) 0.535807 , 0.140874
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.535807, 0.140874 )
+in AddNeighbors node (x,y) ( 0.620524, 0.114427 )f value 1.49823
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.520756 , 0.0902746
+in Astar  while loop current node after NextNode 0x8afa30 (x,y) 0.520756 , 0.0902746
+in Astar  while loop current node 0x8afa30 (x,y) 0.520756 , 0.0902746
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.520756, 0.0902746 )
+in AddNeighbors node (x,y) ( 0.615725, 0.0595854 )f value 1.51063
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.693027 , 0.657217
+in Astar  while loop current node after NextNode 0x810c50 (x,y) 0.693027 , 0.657217
+in Astar  while loop current node 0x810c50 (x,y) 0.693027 , 0.657217
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.693027, 0.657217 )
+in AddNeighbors node (x,y) ( 0.690805, 0.650335 )f value 1.43117
+in AddNeighbors node (x,y) ( 0.702163, 0.654266 )f value 1.4237
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.406399 , 0.98383
+in Astar  while loop current node after NextNode 0x8114c0 (x,y) 0.406399 , 0.98383
+in Astar  while loop current node 0x8114c0 (x,y) 0.406399 , 0.98383
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.406399, 0.98383 )
+in AddNeighbors node (x,y) ( 0.349341, 1.00264 )f value 1.53636
+in AddNeighbors node (x,y) ( 0.421681, 1.03021 )f value 1.4585
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.54327 , 0.481525
+in Astar  while loop current node after NextNode 0x87f970 (x,y) 0.54327 , 0.481525
+in Astar  while loop current node 0x87f970 (x,y) 0.54327 , 0.481525
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.54327, 0.481525 )
+in AddNeighbors node (x,y) ( 0.53522, 0.499042 )f value 1.42826
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.189774 , -0.0342857
+in Astar  while loop current node after NextNode 0x8108e0 (x,y) 0.189774 , -0.0342857
+in Astar  while loop current node 0x8108e0 (x,y) 0.189774 , -0.0342857
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.189774, -0.0342857 )
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.696903 , 0.66921
+in Astar  while loop current node after NextNode 0x87b140 (x,y) 0.696903 , 0.66921
+in Astar  while loop current node 0x87b140 (x,y) 0.696903 , 0.66921
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.696903, 0.66921 )
+in AddNeighbors node (x,y) ( 0.671456, 0.590457 )f value 1.5797
+in AddNeighbors node (x,y) ( 0.707308, 0.665936 )f value 1.42537
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.556868 , 0.657829
+in Astar  while loop current node after NextNode 0x813540 (x,y) 0.556868 , 0.657829
+in Astar  while loop current node 0x813540 (x,y) 0.556868 , 0.657829
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.556868, 0.657829 )
+in AddNeighbors node (x,y) ( 0.558878, 0.62568 )f value 1.47033
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.708155 , 0.77331
+in Astar  while loop current node after NextNode 0x8128c0 (x,y) 0.708155 , 0.77331
+in Astar  while loop current node 0x8128c0 (x,y) 0.708155 , 0.77331
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.708155, 0.77331 )
+in AddNeighbors node (x,y) ( 0.780831, 0.750225 )f value 1.46396
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.181109 , 0.655836
+in Astar  while loop current node after NextNode 0x818ef0 (x,y) 0.181109 , 0.655836
+in Astar  while loop current node 0x818ef0 (x,y) 0.181109 , 0.655836
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.181109, 0.655836 )
+in AddNeighbors node (x,y) ( 0.169944, 0.65921 )f value 1.44133
+in AddNeighbors node (x,y) ( 0.233965, 0.821519 )f value 1.49973
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.505282 , 0.951256
+in Astar  while loop current node after NextNode 0x811470 (x,y) 0.505282 , 0.951256
+in Astar  while loop current node 0x811470 (x,y) 0.505282 , 0.951256
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.505282, 0.951256 )
+in AddNeighbors node (x,y) ( 0.520679, 0.997984 )f value 1.46007
+in AddNeighbors node (x,y) ( 0.624592, 0.911945 )f value 1.42686
+in NextNode open_list size 56
+in NextNode : current (x,y) 0.628467 , 0.89915
+in Astar  while loop current node after NextNode 0x882080 (x,y) 0.628467 , 0.89915
+in Astar  while loop current node 0x882080 (x,y) 0.628467 , 0.89915
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.628467, 0.89915 )
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.538115 , 0.489799
+in Astar  while loop current node after NextNode 0x87fa10 (x,y) 0.538115 , 0.489799
+in Astar  while loop current node 0x87fa10 (x,y) 0.538115 , 0.489799
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.538115, 0.489799 )
+in AddNeighbors node (x,y) ( 0.546982, 0.584967 )f value 1.44218
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.702163 , 0.654266
+in Astar  while loop current node after NextNode 0x8814a0 (x,y) 0.702163 , 0.654266
+in Astar  while loop current node 0x8814a0 (x,y) 0.702163 , 0.654266
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.702163, 0.654266 )
+in AddNeighbors node (x,y) ( 0.785139, 0.627439 )f value 1.49583
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.547886 , 0.660313
+in Astar  while loop current node after NextNode 0x880050 (x,y) 0.547886 , 0.660313
+in Astar  while loop current node 0x880050 (x,y) 0.547886 , 0.660313
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.547886, 0.660313 )
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.582498 , 0.349656
+in Astar  while loop current node after NextNode 0x81bc90 (x,y) 0.582498 , 0.349656
+in Astar  while loop current node 0x81bc90 (x,y) 0.582498 , 0.349656
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.582498, 0.349656 )
+in AddNeighbors node (x,y) ( 0.58946, 0.339244 )f value 1.4436
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.707308 , 0.665936
+in Astar  while loop current node after NextNode 0x881720 (x,y) 0.707308 , 0.665936
+in Astar  while loop current node 0x881720 (x,y) 0.707308 , 0.665936
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.707308, 0.665936 )
+in AddNeighbors node (x,y) ( 0.719599, 0.662039 )f value 1.43448
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.624592 , 0.911945
+in Astar  while loop current node after NextNode 0x881f40 (x,y) 0.624592 , 0.911945
+in Astar  while loop current node 0x881f40 (x,y) 0.624592 , 0.911945
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.624592, 0.911945 )
+in AddNeighbors node (x,y) ( 0.297216, 1.0198 )f value 2.1052
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.53522 , 0.499042
+in Astar  while loop current node after NextNode 0x813450 (x,y) 0.53522 , 0.499042
+in Astar  while loop current node 0x813450 (x,y) 0.53522 , 0.499042
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.53522, 0.499042 )
+in AddNeighbors node (x,y) ( 0.558089, 0.620635 )f value 1.44823
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.631622 , 0.909629
+in Astar  while loop current node after NextNode 0x811420 (x,y) 0.631622 , 0.909629
+in Astar  while loop current node 0x811420 (x,y) 0.631622 , 0.909629
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.631622, 0.909629 )
+in AddNeighbors node (x,y) ( 0.642201, 0.905787 )f value 1.42959
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.642201 , 0.905787
+in Astar  while loop current node after NextNode 0x881d60 (x,y) 0.642201 , 0.905787
+in Astar  while loop current node 0x881d60 (x,y) 0.642201 , 0.905787
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.642201, 0.905787 )
+in AddNeighbors node (x,y) ( 0.753172, 0.868792 )f value 1.44669
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.690805 , 0.650335
+in Astar  while loop current node after NextNode 0x881a40 (x,y) 0.690805 , 0.650335
+in Astar  while loop current node 0x881a40 (x,y) 0.690805 , 0.650335
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.690805, 0.650335 )
+in AddNeighbors node (x,y) ( 0.660521, 0.556615 )f value 1.62416
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.509571 , 0.0808541
+in Astar  while loop current node after NextNode 0x8af9e0 (x,y) 0.509571 , 0.0808541
+in Astar  while loop current node 0x8af9e0 (x,y) 0.509571 , 0.0808541
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.509571, 0.0808541 )
+in AddNeighbors node (x,y) ( 0.49555, 0.0374371 )f value 1.52507
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.719599 , 0.662039
+in Astar  while loop current node after NextNode 0x8b02f0 (x,y) 0.719599 , 0.662039
+in Astar  while loop current node 0x8b02f0 (x,y) 0.719599 , 0.662039
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.719599, 0.662039 )
+in AddNeighbors node (x,y) ( 0.789265, 0.63931 )f value 1.49638
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.169944 , 0.65921
+in Astar  while loop current node after NextNode 0x8d9ec0 (x,y) 0.169944 , 0.65921
+in Astar  while loop current node 0x8d9ec0 (x,y) 0.169944 , 0.65921
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.169944, 0.65921 )
+in AddNeighbors node (x,y) ( 0.0855537, 0.684756 )f value 1.6014
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.546982 , 0.584967
+in Astar  while loop current node after NextNode 0x87fd80 (x,y) 0.546982 , 0.584967
+in Astar  while loop current node 0x87fd80 (x,y) 0.546982 , 0.584967
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.546982, 0.584967 )
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.58946 , 0.339244
+in Astar  while loop current node after NextNode 0x87f1a0 (x,y) 0.58946 , 0.339244
+in Astar  while loop current node 0x87f1a0 (x,y) 0.58946 , 0.339244
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.58946, 0.339244 )
+in AddNeighbors node (x,y) ( 0.597462, 0.329389 )f value 1.46144
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.557714 , 0.630591
+in Astar  while loop current node after NextNode 0x87ff10 (x,y) 0.557714 , 0.630591
+in Astar  while loop current node 0x87ff10 (x,y) 0.557714 , 0.630591
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.557714, 0.630591 )
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.753172 , 0.868792
+in Astar  while loop current node after NextNode 0x884420 (x,y) 0.753172 , 0.868792
+in Astar  while loop current node 0x884420 (x,y) 0.753172 , 0.868792
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.753172, 0.868792 )
+in AddNeighbors node (x,y) ( 0.760375, 0.866487 )f value 1.44859
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.20169 , 0.720336
+in Astar  while loop current node after NextNode 0x879570 (x,y) 0.20169 , 0.720336
+in Astar  while loop current node 0x879570 (x,y) 0.20169 , 0.720336
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.20169, 0.720336 )
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.558089 , 0.620635
+in Astar  while loop current node after NextNode 0x8134a0 (x,y) 0.558089 , 0.620635
+in Astar  while loop current node 0x8134a0 (x,y) 0.558089 , 0.620635
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.558089, 0.620635 )
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.760375 , 0.866487
+in Astar  while loop current node after NextNode 0x812820 (x,y) 0.760375 , 0.866487
+in Astar  while loop current node 0x812820 (x,y) 0.760375 , 0.866487
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.760375, 0.866487 )
+in AddNeighbors node (x,y) ( 0.762789, 0.873714 )f value 1.4511
+in AddNeighbors node (x,y) ( 0.812365, 0.849504 )f value 1.46924
+in NextNode open_list size 51
+in NextNode : current (x,y) 0.258757 , 0.813256
+in Astar  while loop current node after NextNode 0x8b0520 (x,y) 0.258757 , 0.813256
+in Astar  while loop current node 0x8b0520 (x,y) 0.258757 , 0.813256
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.258757, 0.813256 )
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.762789 , 0.873714
+in Astar  while loop current node after NextNode 0x888ac0 (x,y) 0.762789 , 0.873714
+in Astar  while loop current node 0x888ac0 (x,y) 0.762789 , 0.873714
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.762789, 0.873714 )
+in AddNeighbors node (x,y) ( 0.792381, 0.962348 )f value 1.50912
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.531239 , 0.512338
+in Astar  while loop current node after NextNode 0x880c80 (x,y) 0.531239 , 0.512338
+in Astar  while loop current node 0x880c80 (x,y) 0.531239 , 0.512338
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.531239, 0.512338 )
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.475979 , -0.0231392
+in Astar  while loop current node after NextNode 0x8af710 (x,y) 0.475979 , -0.0231392
+in Astar  while loop current node 0x8af710 (x,y) 0.475979 , -0.0231392
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.475979, -0.0231392 )
+in AddNeighbors node (x,y) ( 0.462419, -0.0651082 )f value 1.54088
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.22101 , 0.757531
+in Astar  while loop current node after NextNode 0x8cce00 (x,y) 0.22101 , 0.757531
+in Astar  while loop current node 0x8cce00 (x,y) 0.22101 , 0.757531
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.22101, 0.757531 )
+in AddNeighbors node (x,y) ( 0.20419, 0.76301 )f value 1.48864
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.25318 , -0.042214
+in Astar  while loop current node after NextNode 0x8d50f0 (x,y) 0.25318 , -0.042214
+in Astar  while loop current node 0x8d50f0 (x,y) 0.25318 , -0.042214
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.25318, -0.042214 )
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.421681 , 1.03021
+in Astar  while loop current node after NextNode 0x819120 (x,y) 0.421681 , 1.03021
+in Astar  while loop current node 0x819120 (x,y) 0.421681 , 1.03021
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.421681, 1.03021 )
+in AddNeighbors node (x,y) ( 0.425547, 1.02895 )f value 1.45852
+in AddNeighbors node (x,y) ( 0.423585, 1.03598 )f value 1.46395
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.425547 , 1.02895
+in Astar  while loop current node after NextNode 0x8c92f0 (x,y) 0.425547 , 1.02895
+in Astar  while loop current node 0x8c92f0 (x,y) 0.425547 , 1.02895
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.425547, 1.02895 )
+in AddNeighbors node (x,y) ( 0.509398, 1.00166 )f value 1.45913
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.318345 , 0.904707
+in Astar  while loop current node after NextNode 0x8193a0 (x,y) 0.318345 , 0.904707
+in Astar  while loop current node 0x8193a0 (x,y) 0.318345 , 0.904707
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.318345, 0.904707 )
+in AddNeighbors node (x,y) ( 0.319807, 0.909272 )f value 1.46219
+in NextNode open_list size 49
+in NextNode : current (x,y) 0.509398 , 1.00166
+in Astar  while loop current node after NextNode 0x8c9160 (x,y) 0.509398 , 1.00166
+in Astar  while loop current node 0x8c9160 (x,y) 0.509398 , 1.00166
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.509398, 1.00166 )
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.520679 , 0.997984
+in Astar  while loop current node after NextNode 0x819440 (x,y) 0.520679 , 0.997984
+in Astar  while loop current node 0x819440 (x,y) 0.520679 , 0.997984
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.520679, 0.997984 )
+in AddNeighbors node (x,y) ( 0.536797, 1.04691 )f value 1.50799
+in NextNode open_list size 48
+in NextNode : current (x,y) -0.089112 , 0.1729
+in Astar  while loop current node after NextNode 0x812500 (x,y) -0.089112 , 0.1729
+in Astar  while loop current node 0x812500 (x,y) -0.089112 , 0.1729
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( -0.089112, 0.1729 )
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.597462 , 0.329389
+in Astar  while loop current node after NextNode 0x81bc40 (x,y) 0.597462 , 0.329389
+in Astar  while loop current node 0x81bc40 (x,y) 0.597462 , 0.329389
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.597462, 0.329389 )
+in AddNeighbors node (x,y) ( 0.604684, 0.322162 )f value 1.47497
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.319807 , 0.909272
+in Astar  while loop current node after NextNode 0x8cc4a0 (x,y) 0.319807 , 0.909272
+in Astar  while loop current node 0x8cc4a0 (x,y) 0.319807 , 0.909272
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.319807, 0.909272 )
+in AddNeighbors node (x,y) ( 0.346196, 0.992695 )f value 1.52662
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.423585 , 1.03598
+in Astar  while loop current node after NextNode 0x8b0a70 (x,y) 0.423585 , 1.03598
+in Astar  while loop current node 0x8b0a70 (x,y) 0.423585 , 1.03598
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.423585, 1.03598 )
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.780831 , 0.750225
+in Astar  while loop current node after NextNode 0x8195d0 (x,y) 0.780831 , 0.750225
+in Astar  while loop current node 0x8195d0 (x,y) 0.780831 , 0.750225
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.780831, 0.750225 )
+in AddNeighbors node (x,y) ( 0.783091, 0.755816 )f value 1.46407
+in AddNeighbors node (x,y) ( 0.8203, 0.736895 )f value 1.49934
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.783091 , 0.755816
+in Astar  while loop current node after NextNode 0x884290 (x,y) 0.783091 , 0.755816
+in Astar  while loop current node 0x884290 (x,y) 0.783091 , 0.755816
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.783091, 0.755816 )
+in AddNeighbors node (x,y) ( 0.783418, 0.756851 )f value 1.46411
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.783418 , 0.756851
+in Astar  while loop current node after NextNode 0x8c27c0 (x,y) 0.783418 , 0.756851
+in Astar  while loop current node 0x8c27c0 (x,y) 0.783418 , 0.756851
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.783418, 0.756851 )
+in AddNeighbors node (x,y) ( 0.809711, 0.840038 )f value 1.46969
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.214211 , 0.759591
+in Astar  while loop current node after NextNode 0x818ea0 (x,y) 0.214211 , 0.759591
+in Astar  while loop current node 0x818ea0 (x,y) 0.214211 , 0.759591
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.214211, 0.759591 )
+in AddNeighbors node (x,y) ( 0.120723, 0.791462 )f value 1.64911
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.609772 , 0.176074
+in Astar  while loop current node after NextNode 0x887b70 (x,y) 0.609772 , 0.176074
+in Astar  while loop current node 0x887b70 (x,y) 0.609772 , 0.176074
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.609772, 0.176074 )
+in AddNeighbors node (x,y) ( 0.634257, 0.168156 )f value 1.49244
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.812365 , 0.849504
+in Astar  while loop current node after NextNode 0x819620 (x,y) 0.812365 , 0.849504
+in Astar  while loop current node 0x819620 (x,y) 0.812365 , 0.849504
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.812365, 0.849504 )
+in AddNeighbors node (x,y) ( 0.810134, 0.841386 )f value 1.48493
+in AddNeighbors node (x,y) ( 0.852094, 0.836664 )f value 1.49767
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.809711 , 0.840038
+in Astar  while loop current node after NextNode 0x8cf060 (x,y) 0.809711 , 0.840038
+in Astar  while loop current node 0x8cf060 (x,y) 0.809711 , 0.840038
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.809711, 0.840038 )
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.558878 , 0.62568
+in Astar  while loop current node after NextNode 0x87fec0 (x,y) 0.558878 , 0.62568
+in Astar  while loop current node 0x87fec0 (x,y) 0.558878 , 0.62568
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.558878, 0.62568 )
+in NextNode open_list size 46
+in NextNode : current (x,y) -0.0135216 , 0.045321
+in Astar  while loop current node after NextNode 0x885dc0 (x,y) -0.0135216 , 0.045321
+in Astar  while loop current node 0x885dc0 (x,y) -0.0135216 , 0.045321
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( -0.0135216, 0.045321 )
+in AddNeighbors node (x,y) ( -0.0137717, 0.0445303 )f value 1.4751
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.604684 , 0.322162
+in Astar  while loop current node after NextNode 0x87f150 (x,y) 0.604684 , 0.322162
+in Astar  while loop current node 0x87f150 (x,y) 0.604684 , 0.322162
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.604684, 0.322162 )
+in AddNeighbors node (x,y) ( 0.609983, 0.319032 )f value 1.48167
+in NextNode open_list size 46
+in NextNode : current (x,y) -0.0137717 , 0.0445303
+in Astar  while loop current node after NextNode 0x8e2160 (x,y) -0.0137717 , 0.0445303
+in Astar  while loop current node 0x8e2160 (x,y) -0.0137717 , 0.0445303
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( -0.0137717, 0.0445303 )
+in AddNeighbors node (x,y) ( -0.0175993, 0.0327157 )f value 1.49851
+in NextNode open_list size 46
+in NextNode : current (x,y) 0.609983 , 0.319032
+in Astar  while loop current node after NextNode 0x81bbf0 (x,y) 0.609983 , 0.319032
+in Astar  while loop current node 0x81bbf0 (x,y) 0.609983 , 0.319032
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.609983, 0.319032 )
+in AddNeighbors node (x,y) ( 0.620831, 0.313665 )f value 1.49413
+in NextNode open_list size 46
+in NextNode : current (x,y) -0.0545289 , 0.27694
+in Astar  while loop current node after NextNode 0x8113d0 (x,y) -0.0545289 , 0.27694
+in Astar  while loop current node 0x8113d0 (x,y) -0.0545289 , 0.27694
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( -0.0545289, 0.27694 )
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.810134 , 0.841386
+in Astar  while loop current node after NextNode 0x834d80 (x,y) 0.810134 , 0.841386
+in Astar  while loop current node 0x834d80 (x,y) 0.810134 , 0.841386
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.810134, 0.841386 )
+in NextNode open_list size 44
+in NextNode : current (x,y) -0.00997292 , 0.0302548
+in Astar  while loop current node after NextNode 0x8e2110 (x,y) -0.00997292 , 0.0302548
+in Astar  while loop current node 0x8e2110 (x,y) -0.00997292 , 0.0302548
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( -0.00997292, 0.0302548 )
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.20419 , 0.76301
+in Astar  while loop current node after NextNode 0x8d9970 (x,y) 0.20419 , 0.76301
+in Astar  while loop current node 0x8d9970 (x,y) 0.20419 , 0.76301
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.20419, 0.76301 )
+in AddNeighbors node (x,y) ( 0.111395, 0.794647 )f value 1.67126
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.634257 , 0.168156
+in Astar  while loop current node after NextNode 0x8875d0 (x,y) 0.634257 , 0.168156
+in Astar  while loop current node 0x8875d0 (x,y) 0.634257 , 0.168156
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.634257, 0.168156 )
+in AddNeighbors node (x,y) ( 0.636805, 0.167332 )f value 1.49507
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.229849 , 0.808634
+in Astar  while loop current node after NextNode 0x87aec0 (x,y) 0.229849 , 0.808634
+in Astar  while loop current node 0x87aec0 (x,y) 0.229849 , 0.808634
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.229849, 0.808634 )
+in AddNeighbors node (x,y) ( 0.126926, 0.842923 )f value 1.69863
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.620831 , 0.313665
+in Astar  while loop current node after NextNode 0x81bba0 (x,y) 0.620831 , 0.313665
+in Astar  while loop current node 0x81bba0 (x,y) 0.620831 , 0.313665
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.620831, 0.313665 )
+in AddNeighbors node (x,y) ( 0.624092, 0.323888 )f value 1.4942
+in AddNeighbors node (x,y) ( 0.625775, 0.311694 )f value 1.49925
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.624092 , 0.323888
+in Astar  while loop current node after NextNode 0x888200 (x,y) 0.624092 , 0.323888
+in Astar  while loop current node 0x888200 (x,y) 0.624092 , 0.323888
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.624092, 0.323888 )
+in AddNeighbors node (x,y) ( 0.659473, 0.433185 )f value 1.49504
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.659473 , 0.433185
+in Astar  while loop current node after NextNode 0x888570 (x,y) 0.659473 , 0.433185
+in Astar  while loop current node 0x888570 (x,y) 0.659473 , 0.433185
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.659473, 0.433185 )
+in AddNeighbors node (x,y) ( 0.662002, 0.441113 )f value 1.49512
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.636805 , 0.167332
+in Astar  while loop current node after NextNode 0x8afda0 (x,y) 0.636805 , 0.167332
+in Astar  while loop current node 0x8afda0 (x,y) 0.636805 , 0.167332
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.636805, 0.167332 )
+in AddNeighbors node (x,y) ( 0.64924, 0.163312 )f value 1.50803
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.662002 , 0.441113
+in Astar  while loop current node after NextNode 0x8848d0 (x,y) 0.662002 , 0.441113
+in Astar  while loop current node 0x8848d0 (x,y) 0.662002 , 0.441113
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.662002, 0.441113 )
+in AddNeighbors node (x,y) ( 0.719224, 0.422661 )f value 1.55039
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.785139 , 0.627439
+in Astar  while loop current node after NextNode 0x881540 (x,y) 0.785139 , 0.627439
+in Astar  while loop current node 0x881540 (x,y) 0.785139 , 0.627439
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.785139, 0.627439 )
+in AddNeighbors node (x,y) ( 0.797872, 0.623319 )f value 1.50894
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.789265 , 0.63931
+in Astar  while loop current node after NextNode 0x8819f0 (x,y) 0.789265 , 0.63931
+in Astar  while loop current node 0x8819f0 (x,y) 0.789265 , 0.63931
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.789265, 0.63931 )
+in AddNeighbors node (x,y) ( 0.801729, 0.635257 )f value 1.50924
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.319893 , -0.0661326
+in Astar  while loop current node after NextNode 0x8af170 (x,y) 0.319893 , -0.0661326
+in Astar  while loop current node 0x8af170 (x,y) 0.319893 , -0.0661326
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.319893, -0.0661326 )
+in AddNeighbors node (x,y) ( 0.316662, -0.0752747 )f value 1.51577
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.852094 , 0.836664
+in Astar  while loop current node after NextNode 0x884380 (x,y) 0.852094 , 0.836664
+in Astar  while loop current node 0x884380 (x,y) 0.852094 , 0.836664
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.852094, 0.836664 )
+in AddNeighbors node (x,y) ( 0.865279, 0.831965 )f value 1.51113
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.620524 , 0.114427
+in Astar  while loop current node after NextNode 0x8c60f0 (x,y) 0.620524 , 0.114427
+in Astar  while loop current node 0x8c60f0 (x,y) 0.620524 , 0.114427
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.620524, 0.114427 )
+in AddNeighbors node (x,y) ( 0.632266, 0.110764 )f value 1.51032
+in NextNode open_list size 44
+in NextNode : current (x,y) -0.0175993 , 0.0327157
+in Astar  while loop current node after NextNode 0x810980 (x,y) -0.0175993 , 0.0327157
+in Astar  while loop current node 0x810980 (x,y) -0.0175993 , 0.0327157
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( -0.0175993, 0.0327157 )
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.570948 , -0.0403878
+in Astar  while loop current node after NextNode 0x8af6c0 (x,y) 0.570948 , -0.0403878
+in Astar  while loop current node 0x8af6c0 (x,y) 0.570948 , -0.0403878
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.570948, -0.0403878 )
+in AddNeighbors node (x,y) ( 0.582248, -0.0440179 )f value 1.51032
+in NextNode open_list size 43
+in NextNode : current (x,y) 0.625775 , 0.311694
+in Astar  while loop current node after NextNode 0x81bb50 (x,y) 0.625775 , 0.311694
+in Astar  while loop current node 0x81bb50 (x,y) 0.625775 , 0.311694
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.625775, 0.311694 )
+in AddNeighbors node (x,y) ( 0.638594, 0.300291 )f value 1.52189
+in AddNeighbors node (x,y) ( 0.642143, 0.312819 )f value 1.50821
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.8203 , 0.736895
+in Astar  while loop current node after NextNode 0x8841f0 (x,y) 0.8203 , 0.736895
+in Astar  while loop current node 0x8841f0 (x,y) 0.8203 , 0.736895
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.8203, 0.736895 )
+in AddNeighbors node (x,y) ( 0.833196, 0.732653 )f value 1.51254
+in NextNode open_list size 44
+in NextNode : current (x,y) 0.233965 , 0.821519
+in Astar  while loop current node after NextNode 0x8110b0 (x,y) 0.233965 , 0.821519
+in Astar  while loop current node 0x8110b0 (x,y) 0.233965 , 0.821519
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.233965, 0.821519 )
+in AddNeighbors node (x,y) ( 0.15646, 0.846509 )f value 1.65459
+in AddNeighbors node (x,y) ( 0.249612, 0.870585 )f value 1.52955
+in NextNode open_list size 45
+in NextNode : current (x,y) -0.0193784 , 0.378942
+in Astar  while loop current node after NextNode 0x812550 (x,y) -0.0193784 , 0.378942
+in Astar  while loop current node 0x812550 (x,y) -0.0193784 , 0.378942
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( -0.0193784, 0.378942 )
+in AddNeighbors node (x,y) ( -0.125503, 0.413174 )f value 1.69109
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.536797 , 1.04691
+in Astar  while loop current node after NextNode 0x812e60 (x,y) 0.536797 , 1.04691
+in Astar  while loop current node 0x812e60 (x,y) 0.536797 , 1.04691
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.536797, 1.04691 )
+in AddNeighbors node (x,y) ( 0.574314, 1.16077 )f value 1.64617
+in NextNode open_list size 45
+in NextNode : current (x,y) 0.64924 , 0.163312
+in Astar  while loop current node after NextNode 0x811650 (x,y) 0.64924 , 0.163312
+in Astar  while loop current node 0x811650 (x,y) 0.64924 , 0.163312
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.64924, 0.163312 )
+in AddNeighbors node (x,y) ( 0.658348, 0.160372 )f value 1.51766
+in AddNeighbors node (x,y) ( 0.652799, 0.174325 )f value 1.50803
+in AddNeighbors node (x,y) ( 0.645644, 0.152188 )f value 1.53141
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.652799 , 0.174325
+in Astar  while loop current node after NextNode 0x8aff30 (x,y) 0.652799 , 0.174325
+in Astar  while loop current node 0x8aff30 (x,y) 0.652799 , 0.174325
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.652799, 0.174325 )
+in AddNeighbors node (x,y) ( 0.656799, 0.186697 )f value 1.50803
+in NextNode open_list size 47
+in NextNode : current (x,y) 0.656799 , 0.186697
+in Astar  while loop current node after NextNode 0x8b0070 (x,y) 0.656799 , 0.186697
+in Astar  while loop current node 0x8b0070 (x,y) 0.656799 , 0.186697
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.656799, 0.186697 )
+in AddNeighbors node (x,y) ( 0.664541, 0.184214 )f value 1.51619
+in AddNeighbors node (x,y) ( 0.686045, 0.277229 )f value 1.50803
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.686045 , 0.277229
+in Astar  while loop current node after NextNode 0x8845b0 (x,y) 0.686045 , 0.277229
+in Astar  while loop current node 0x8845b0 (x,y) 0.686045 , 0.277229
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.686045, 0.277229 )
+in AddNeighbors node (x,y) ( 0.688209, 0.283922 )f value 1.50803
+in NextNode open_list size 48
+in NextNode : current (x,y) 0.688209 , 0.283922
+in Astar  while loop current node after NextNode 0x812960 (x,y) 0.688209 , 0.283922
+in Astar  while loop current node 0x812960 (x,y) 0.688209 , 0.283922
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.688209, 0.283922 )
+in AddNeighbors node (x,y) ( 0.675572, 0.288164 )f value 1.52134
+in AddNeighbors node (x,y) ( 0.692604, 0.297518 )f value 1.50803
+in AddNeighbors node (x,y) ( 0.695941, 0.281427 )f value 1.5162
+in NextNode open_list size 50
+in NextNode : current (x,y) 0.692604 , 0.297518
+in Astar  while loop current node after NextNode 0x81bb00 (x,y) 0.692604 , 0.297518
+in Astar  while loop current node 0x81bb00 (x,y) 0.692604 , 0.297518
+in AddNeighbors 3
+in AddNeighbors current node (x,y) ( 0.692604, 0.297518 )
+in AddNeighbors node (x,y) ( 0.679149, 0.300859 )f value 1.523
+in AddNeighbors node (x,y) ( 0.694758, 0.304189 )f value 1.50803
+in AddNeighbors node (x,y) ( 0.700211, 0.295057 )f value 1.51608
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.694758 , 0.304189
+in Astar  while loop current node after NextNode 0x884740 (x,y) 0.694758 , 0.304189
+in Astar  while loop current node 0x884740 (x,y) 0.694758 , 0.304189
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.694758, 0.304189 )
+in AddNeighbors node (x,y) ( 0.718541, 0.377795 )f value 1.50803
+in NextNode open_list size 52
+in NextNode : current (x,y) 0.718541 , 0.377795
+in Astar  while loop current node after NextNode 0x8ad960 (x,y) 0.718541 , 0.377795
+in Astar  while loop current node 0x8ad960 (x,y) 0.718541 , 0.377795
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.718541, 0.377795 )
+in AddNeighbors node (x,y) ( 0.725879, 0.375468 )f value 1.51574
+in AddNeighbors node (x,y) ( 0.729004, 0.410189 )f value 1.50803
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.729004 , 0.410189
+in Astar  while loop current node after NextNode 0x884790 (x,y) 0.729004 , 0.410189
+in Astar  while loop current node 0x884790 (x,y) 0.729004 , 0.410189
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.729004, 0.410189 )
+in AddNeighbors node (x,y) ( 0.731716, 0.418586 )f value 1.50803
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.731716 , 0.418586
+in Astar  while loop current node after NextNode 0x8129b0 (x,y) 0.731716 , 0.418586
+in Astar  while loop current node 0x8129b0 (x,y) 0.731716 , 0.418586
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.731716, 0.418586 )
+in AddNeighbors node (x,y) ( 0.74344, 0.4148 )f value 1.52049
+in AddNeighbors node (x,y) ( 0.733938, 0.425379 )f value 1.50803
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.733938 , 0.425379
+in Astar  while loop current node after NextNode 0x884880 (x,y) 0.733938 , 0.425379
+in Astar  while loop current node 0x884880 (x,y) 0.733938 , 0.425379
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.733938, 0.425379 )
+in AddNeighbors node (x,y) ( 0.762837, 0.514866 )f value 1.50803
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.762837 , 0.514866
+in Astar  while loop current node after NextNode 0x884010 (x,y) 0.762837 , 0.514866
+in Astar  while loop current node 0x884010 (x,y) 0.762837 , 0.514866
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.762837, 0.514866 )
+in AddNeighbors node (x,y) ( 0.765376, 0.522739 )f value 1.50803
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.765376 , 0.522739
+in Astar  while loop current node after NextNode 0x812050 (x,y) 0.765376 , 0.522739
+in Astar  while loop current node 0x812050 (x,y) 0.765376 , 0.522739
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.765376, 0.522739 )
+in AddNeighbors node (x,y) ( 0.773676, 0.520044 )f value 1.51686
+in AddNeighbors node (x,y) ( 0.767809, 0.530312 )f value 1.50803
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.767809 , 0.530312
+in Astar  while loop current node after NextNode 0x884100 (x,y) 0.767809 , 0.530312
+in Astar  while loop current node 0x884100 (x,y) 0.767809 , 0.530312
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.767809, 0.530312 )
+in AddNeighbors node (x,y) ( 0.795343, 0.61549 )f value 1.50803
+in NextNode open_list size 55
+in NextNode : current (x,y) 0.795343 , 0.61549
+in Astar  while loop current node after NextNode 0x8815e0 (x,y) 0.795343 , 0.61549
+in Astar  while loop current node 0x8815e0 (x,y) 0.795343 , 0.61549
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.795343, 0.61549 )
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.642143 , 0.312819
+in Astar  while loop current node after NextNode 0x8881b0 (x,y) 0.642143 , 0.312819
+in Astar  while loop current node 0x8881b0 (x,y) 0.642143 , 0.312819
+in AddNeighbors 0
+in AddNeighbors current node (x,y) ( 0.642143, 0.312819 )
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.797872 , 0.623319
+in Astar  while loop current node after NextNode 0x810ca0 (x,y) 0.797872 , 0.623319
+in Astar  while loop current node 0x810ca0 (x,y) 0.797872 , 0.623319
+in AddNeighbors 1
+in AddNeighbors current node (x,y) ( 0.797872, 0.623319 )
+in AddNeighbors node (x,y) ( 0.806576, 0.620591 )f value 1.51811
+in NextNode open_list size 53
+in NextNode : current (x,y) 0.792381 , 0.962348
+in Astar  while loop current node after NextNode 0x811880 (x,y) 0.792381 , 0.962348
+in Astar  while loop current node 0x811880 (x,y) 0.792381 , 0.962348
+in AddNeighbors 2
+in AddNeighbors current node (x,y) ( 0.792381, 0.962348 )
+in AddNeighbors node (x,y) ( 0.824041, 1.06574 )f value 1.66253
+in AddNeighbors node (x,y) ( 0.896669, 0.929106 )f value 1.50912
+in NextNode open_list size 54
+in NextNode : current (x,y) 0.896669 , 0.929106
+in Astar  while loop current node after NextNode 0x888b60 (x,y) 0.896669 , 0.929106
+in Astar : path_found size 0
